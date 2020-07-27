@@ -100,6 +100,7 @@ class LogViewerController extends Controller
         $stats   = $this->logViewer->statsTable();
         $headers = $stats->header();
         $rows    = $this->paginate($stats->rows(), $request);
+        $footer  =$stats->footer();
 
         return $this->view('logs', compact('headers', 'rows', 'footer'));
     }
