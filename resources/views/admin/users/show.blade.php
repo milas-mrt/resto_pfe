@@ -20,7 +20,7 @@
 @section('content')
     <section class="content-header">
         <!--section starts-->
-        <h1>User Profile</h1>
+        <h1>Profil d'utilisateur</h1>
         <ol class="breadcrumb">
             <li>
                 <a href="{{ route('admin.dashboard') }}">
@@ -29,9 +29,9 @@
                 </a>
             </li>
             <li>
-                <a href="#">Users</a>
+                <a href="#">Utilisateurs</a>
             </li>
-            <li class="active">User Profile</li>
+            <li class="active">Profil d'utilisateur</li>
         </ol>
     </section>
     <!--section ends-->
@@ -42,17 +42,17 @@
                     <li class="nav-item">
                         <a href="#tab1" data-toggle="tab" class="nav-link active">
                             <i class="livicon" data-name="user" data-size="16" data-c="#777"  data-hc="#000" data-loop="true"></i>
-                            User Profile</a>
+                           Profil d'utilisateur</a>
                     </li>
                     <li class="nav-item">
                         <a href="#tab2" data-toggle="tab" class="nav-link">
                             <i class="livicon" data-name="key" data-size="16" data-loop="true" data-c="#000" data-hc="#000"></i>
-                            Change Password</a>
+                            Modifier le mot de passe</a>
                     </li>
                     <li class="nav-item">
                         <a href="{{ URL::to('admin/user_profile') }}" class=" nav-link" >
                             <i class="livicon" data-name="gift" data-size="16" data-loop="true" data-c="#000" data-hc="#000"></i>
-                            Advanced User Profile</a>
+                              Paramètre du Profil d'utilisateur avancés</a>
                     </li>
 
                 </ul>
@@ -64,7 +64,7 @@
                                     <div class="card-header">
                                         <h3 class="card-title">
 
-                                            User Profile
+                                            Profil d'utilisateur
                                         </h3>
 
                                     </div>
@@ -198,7 +198,7 @@
                                             <div class="row">
                                             {{ csrf_field() }}
                                             <label for="inputpassword" class="col-md-3 control-label">
-                                                Password
+                                                Mot de passe
                                                 <span class='require'>*</span>
                                             </label>
                                             <div class="col-md-9">
@@ -206,7 +206,7 @@
                                                             <span class="input-group-append">
                                                                 <span class="input-group-text"><i class="livicon" data-name="key" data-size="16" data-loop="true" data-c="#000" data-hc="#000"></i></span>
                                                             </span>
-                                                    <input type="password" id="password" placeholder="Password" name="password"
+                                                    <input type="password" id="password" placeholder="Mot de passe" name="password"
                                                            class="form-control"/>
                                                 </div>
                                             </div>
@@ -215,7 +215,7 @@
                                         <div class="form-group">
                                             <div class="row">
                                             <label for="inputnumber" class="col-md-3 control-label">
-                                                Confirm Password
+                                                Confirmer le mot de passe
                                                 <span class='require'>*</span>
                                             </label>
                                             <div class="col-md-9">
@@ -223,7 +223,7 @@
                                                             <span class="input-group-append">
                                                                 <span class="input-group-text"><i class="livicon" data-name="key" data-size="16" data-loop="true" data-c="#000" data-hc="#000"></i></span>
                                                             </span>
-                                                    <input type="password" id="password-confirm" placeholder="Confirm Password" name="confirm_password"
+                                                    <input type="password" id="password-confirm" placeholder="Confirmer le mot de passe" name="confirm_password"
                                                            class="form-control"/>
                                                 </div>
                                             </div>
@@ -232,7 +232,7 @@
                                     </div>
                                     <div class="form-actions">
                                         <div class="col-md-offset-3 col-md-9 ml-auto">
-                                            <button type="submit" class="btn btn-primary" id="change-password">Submit
+                                            <button type="submit" class="btn btn-primary" id="change-password">Soumettre
                                             </button>
                                             &nbsp;
                                             <input type="reset" class="btn btn-secondary" value="Reset"></div>

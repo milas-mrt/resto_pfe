@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
         @section('title')
-        | Welcome to Josh Frontend
+        | Bienvenue !!
         @show
     </title>
     <!--global css starts-->
@@ -61,14 +61,13 @@
                                 <a href="mailto:"><i class="livicon" data-name="mail" data-size="18" data-loop="true"
                                         data-c="#fff" data-hc="#fff"></i></a>
                                 <label class="d-none d-md-inline-block d-lg-inline-block d-xl-inline-block"><a
-                                        href="mailto:" class="text-white">info@joshadmin.com</a></label>
+                                        href="mailto:" class="text-white">info@restoadmin.com</a></label>
                             </li>
                             <li>
                                 <a href="tel:"><i class="livicon" data-name="phone" data-size="18" data-loop="true"
                                         data-c="#fff" data-hc="#fff"></i></a>
-                                <label class="d-none d-md-inline-block d-lg-inline-block d-xl-inline-block"><a
-                                        href="tel:" class="text-white">(703)
-                                        717-4200</a></label>
+                                <label class="d-none d-md-inline-block d-lg-inline-block d-xl-inline-block">
+                                    <a href="tel:" class="text-white">(07)904-24548</a></label>
                             </li>
                         </ul>
                     </div>
@@ -93,33 +92,37 @@
                         </li>
                         <li
                             class=" nav-item dropdown  {!! (Request::is('typography') || Request::is('advanced_features') || Request::is('grid') ? 'active' : '') !!}">
-                            <a href="#" aria-expanded="false" class="nav-link"> Features</a>
+                            <a href="#" aria-expanded="false" class="nav-link"> Fonctionnalités</a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="{{ URL::to('typography') }}" class="dropdown-item">Typography</a>
+                                <li><a href="{{ URL::to('') }}" class="dropdown-item">Réservation</a>
                                 </li>
-                                <li><a href="{{ URL::to('advanced_features') }}" class="dropdown-item">Advanced
-                                        Features</a>
+                                <li><a href="{{ URL::to('') }}" class="dropdown-item">Livraison</a>
                                 </li>
-                                <li><a href="{{ URL::to('grid') }}" class="dropdown-item">Grid System</a>
+                                <li><a href="{{ URL::to('typography') }}" class="dropdown-item">Typographie</a>
                                 </li>
+                                <li><a href="{{ URL::to('advanced_features') }}" class="dropdown-item">Fonctionnalités avancées
+                                        </a>
+                                </li>
+                               <!-- <li><a href="{{ URL::to('grid') }}" class="dropdown-item">Système Grid</a>
+                                </li>-->
                             </ul>
                         </li>
                         <li
                             class=" nav-item dropdown {!! (Request::is('about_us') || Request::is('timeline') || Request::is('faq') || Request::is('blank_page')  ? 'active' : '') !!}">
                             <a href="#" class="nav-link"> Pages</a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="{{ URL::to('about_us') }}" class="dropdown-item">About Us</a>
+                                <li><a href="{{ URL::to('about_us') }}" class="dropdown-item">A propos</a>
                                 </li>
                                 <li><a href="{{ URL::to('timeline') }}" class="dropdown-item">Timeline</a></li>
-                                <li><a href="{{ URL::to('price') }}" class="dropdown-item">Price</a>
+                                <li><a href="{{ URL::to('price') }}" class="dropdown-item">Prix</a>
                                 </li>
-                                <li><a href="{{ URL::to('404') }}" class="dropdown-item">404 Error</a>
+                                <li><a href="{{ URL::to('404') }}" class="dropdown-item">404 Erreur</a>
                                 </li>
-                                <li><a href="{{ URL::to('500') }}" class="dropdown-item">500 Error</a>
+                                <li><a href="{{ URL::to('500') }}" class="dropdown-item">500 Erreur</a>
                                 </li>
                                 <li><a href="{{ URL::to('faq') }}" class="dropdown-item">FAQ</a>
                                 </li>
-                                <li><a href="{{ URL::to('blank_page') }}" class="dropdown-item">Blank</a>
+                                <li><a href="{{ URL::to('blank_page') }}" class="dropdown-item">page vide</a>
                                 </li>
                             </ul>
                         </li>
@@ -127,14 +130,14 @@
                             class="nav-item dropdown {!! (Request::is('products') || Request::is('single_product') || Request::is('compareproducts') || Request::is('category')  ? 'active' : '') !!}">
                             <a href="#" class="nav-link"> Shop</a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="{{ URL::to('products') }}" class="dropdown-item">Products</a>
+                                <li><a href="{{ URL::to('products') }}" class="dropdown-item">Produits</a>
                                 </li>
-                                <li><a href="{{ URL::to('single_product') }}" class="dropdown-item">Single Product</a>
+                                <li><a href="{{ URL::to('single_product') }}" class="dropdown-item">Un seul Produit</a>
                                 </li>
-                                <li><a href="{{ URL::to('compareproducts') }}" class="dropdown-item">Compare
+                                <li><a href="{{ URL::to('compareproducts') }}" class="dropdown-item">Comparer
                                         Products</a>
                                 </li>
-                                <li><a href="{{ URL::to('category') }}" class="dropdown-item">Categories</a></li>
+                                <li><a href="{{ URL::to('category') }}" class="dropdown-item">Catégories</a></li>
                             </ul>
                         </li>
                         <li
@@ -143,7 +146,7 @@
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="{{ URL::to('portfolio') }}">Portfolio</a>
                                 </li>
-                                <li><a href="{{ URL::to('portfolioitem') }}">Portfolio Item</a>
+                                <li><a href="{{ URL::to('portfolioitem') }}">Portfolio article</a>
                                 </li>
                             </ul>
                         </li>
@@ -153,19 +156,19 @@
                             <a href="#" aria-expanded="false" class="nav-link"> Emails</a>
                             <ul class="dropdown-menu" role="menu">
                                 <li>
-                                    <a href="{{ URL::to('user_emails/compose') }}" class="dropdown-item">Compose</a>
+                                    <a href="{{ URL::to('user_emails/compose') }}" class="dropdown-item">Composer</a>
                                 </li>
                                 <li>
-                                    <a href="{{ URL::to('user_emails/inbox') }}" class="dropdown-item">Inbox</a>
+                                    <a href="{{ URL::to('user_emails/inbox') }}" class="dropdown-item">reçu</a>
                                 </li>
                                 <li>
-                                    <a href="{{ URL::to('user_emails/sent') }}" class="dropdown-item">Sent</a>
+                                    <a href="{{ URL::to('user_emails/sent') }}" class="dropdown-item">envoyé</a>
                                 </li>
                             </ul>
                         </li>
                         @endif
                         <li class="nav-item {!! (Request::is(
-                    'news*') ? 'active' : '') !!}"><a href="{{ URL::to('news') }}" class="nav-link">News</a>
+                    'news*') ? 'active' : '') !!}"><a href="{{ URL::to('news') }}" class="nav-link">Tendances</a>
                         </li>
                         <li class="nav-item {!! (Request::is(
                     'blog') || Request::is('blogitem/*') ? 'active' : '') !!}"><a href="{{ URL::to('blog') }}"
@@ -178,16 +181,16 @@
 
                         {{--based on anyone login or not display menu items--}}
                         @if(Sentinel::guest())
-                        <li class="nav-item"><a href="{{ URL::to('login') }}" class="nav-link">Login</a>
+                        <li class="nav-item"><a href="{{ URL::to('login') }}" class="nav-link">Connecter</a>
                         </li>
-                        <li class="nav-item"><a href="{{ URL::to('register') }}" class="nav-link">Register</a>
+                        <li class="nav-item"><a href="{{ URL::to('register') }}" class="nav-link">S'inscrire</a>
                         </li>
                         @else
                         <li class="nav-item {{ (Request::is('my-account') ? 'active' : '') }}"><a
-                                href="{{ URL::to('my-account') }}" class="nav-link">My
-                                Account</a>
+                                href="{{ URL::to('my-account') }}" class="nav-link">Mon
+                                compte</a>
                         </li>
-                        <li class="nav-item"><a href="{{ URL::to('logout') }}" class="nav-link">Logout</a>
+                        <li class="nav-item"><a href="{{ URL::to('logout') }}" class="nav-link">se déconnecter</a>
                         </li>
                         @endif
                     </ul>
@@ -212,7 +215,7 @@
                 <!-- About Us Section Start -->
                 <div class="row">
                     <div class="col-sm-4 col-lg-4 col-md-4 col-12">
-                        <h4>About Us</h4>
+                        <h4>A propos</h4>
                         <p>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been
@@ -223,7 +226,7 @@
                             but also the leap into electronic typesetting, remaining essentially unchanged.
                         </p>
                         <hr id="hr_border2">
-                        <h4 class="menu">Follow Us</h4>
+                        <h4 class="menu">Suivez nous</h4>
                         <ul class="list-inline mb-2">
                             <li>
                                 <a href="#"> <i class="livicon" data-name="facebook" data-size="18" data-loop="true"
@@ -255,41 +258,41 @@
                     <!-- //About us Section End -->
                     <!-- Contact Section Start -->
                     <div class="col-sm-4 col-lg-4 col-md-4 col-12">
-                        <h4>Contact Us</h4>
+                        <h4>Contactez nous</h4>
                         <ul class="list-unstyled">
-                            <li>35,Lorem Lis Street, Park Ave</li>
-                            <li>Lis Street, India.</li>
+                            <li>371,Mansourah, Tlemcen</li>
+                            <li>Tlemcen, Algérie.</li>
                             <li><i class="livicon icon4 icon3" data-name="cellphone" data-size="18" data-loop="true"
-                                    data-c="#ccc" data-hc="#ccc"></i>Phone:9140 123 4588
+                                    data-c="#ccc" data-hc="#ccc"></i>Tél:07(9042 4548) 
                             </li>
                             <li><i class="livicon icon4 icon3" data-name="printer" data-size="18" data-loop="true"
-                                    data-c="#ccc" data-hc="#ccc"></i> Fax:400 423 1456
+                                    data-c="#ccc" data-hc="#ccc"></i> Fax:043 (421 613)
                             </li>
                             <li>
                                 <i class="livicon icon3" data-name="mail-alt" data-size="20" data-loop="true"
                                     data-c="#ccc" data-hc="#ccc"></i>
-                                Email: <a class="text-success" href="mailto:info@joshadmin.com">info@joshadmin.com</a>
+                                Email: <a class="text-success" href="mailto:info@joshadmin.com">info@restoadmin.com</a>
                             </li>
                             <li><i class="livicon icon4 icon3" data-name="skype" data-size="18" data-loop="true"
                                     data-c="#ccc" data-hc="#ccc"></i> Skype: <a class="text-success"
-                                    href="skype:Joshadmin">Joshadmin</a>
+                                    href="skype:Joshadmin">restoadmin</a>
                             </li>
                         </ul>
                         <hr id="hr_border">
                         <div class="news menu">
                             <h4>News letter</h4>
-                            <p>subscribe to our newsletter and stay up to date with the latest news and deals</p>
+                            <p>Abonnez vous sur notre newsletter et restez à jour avec les derniers news </p>
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="yourmail@mail.com"
                                     aria-describedby="basic-addon2">
-                                <a href="#" class="btn btn-primary text-white" role="button">Subscribe</a>
+                                <a href="#" class="btn btn-primary text-white" role="button">S'abonner</a>
                             </div>
                         </div>
                     </div>
                     <!-- //Contact Section End -->
                     <!-- Recent post Section Start -->
                     <div class="col-sm-4 col-lg-4 col-md-4 col-12">
-                        <h4>Recent Posts</h4>
+                        <h4>Posts Récents</h4>
                         <div class="media">
                             <img class="media-object rounded-circle mr-3" src="{{ asset('images/image_14.jpg') }}"
                                 alt="image">
@@ -340,7 +343,7 @@
         <!-- //Footer Section End -->
         <div class=" col-12 copyright">
             <div class="container">
-                <p>Copyright &copy; Josh Admin Template, 2019</p>
+                <p>Copyright &copy; restopfe , 2020</p>
             </div>
         </div>
     </footer>

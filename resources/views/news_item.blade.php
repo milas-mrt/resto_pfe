@@ -33,7 +33,7 @@
                 </ol>
                 <div class="float-right">
                     <i class="livicon icon3" data-name="list-ul" data-size="20" data-loop="true" data-c="#3d3d3d"
-                        data-hc="#3d3d3d"></i> News Item
+                        data-hc="#3d3d3d"></i> Article 
                 </div>
             </div>
         </div>
@@ -70,7 +70,7 @@
         <div class="col-sm-5 col-md-4 col-full-width-left">
             <!-- Featured Author Section Start -->
             <div class="wow slideInDown mt-1 border rounded p-2" data-wow-duration="3.5s">
-                <h4>Featured Authors</h4>
+                <h4> Auteurs en vedette !!</h4>
                 <br>
                 <div class="row">
                     <div class="col-3">
@@ -111,13 +111,13 @@
                     <!-- /.col-xs-3 -->
                 </div>
                 <!-- /.row -->
-                <button class="btn btn-success btn-block">Browse all authors</button>
+                <button class="btn btn-success btn-block">Feuilleter tout les auteurs</button>
             </div>
             <!-- //Featured Author Section End -->
 
             <!-- Recent Post Section Start -->
             <div class="wow slideInRight mt-2 border rounded p-2" data-wow-duration="1.5s">
-                <h4 class="small-heading more-margin-bottom">Recent News</h4>
+                <h4 class="small-heading more-margin-bottom">Dans les Tenadances </h4>
                 <ul class="p-0">
                     @foreach($recentnews as $item)
                     <li class="media">
@@ -135,7 +135,7 @@
             </div>
             <!-- Recent Post Section End -->
             <div class="wow slideInRight border rounded my-2 p-1" data-wow-duration="1.5s">
-                <h3 class="mt-2">Top Reviews</h3>
+                <h3 class="mt-2">Top Commentaires</h3>
                 <div class="tab-pane active" id="tab_default_1">
                     <div class="media">
                         <div class="media-left">

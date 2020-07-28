@@ -28,12 +28,12 @@ News
                     <li class="d-none d-lg-block d-sm-block d-md-block">
                         <i class="livicon icon3" data-name="angle-double-right" data-size="18" data-loop="true"
                             data-c="#01bc8c" data-hc="#01bc8c"></i>
-                        <a href="#">News</a>
+                        <a href="#">Tendances</a>
                     </li>
                 </ol>
                 <div class="float-right">
                     <i class="livicon icon3" data-name="responsive-menu" data-size="20" data-loop="true"
-                        data-c="#3d3d3d" data-hc="#3d3d3d"></i> News
+                        data-c="#3d3d3d" data-hc="#3d3d3d"></i> Tendances
                 </div>
             </div>
         </div>
@@ -54,7 +54,7 @@ News
                     <div class="text-left">
                         <div>
                             <h4 class="border-warning">
-                                <span class="heading_border bg-warning">Popular News</span>
+                                <span class="heading_border bg-warning">Des Tendances récentes</span>
                             </h4>
                         </div>
                     </div>
@@ -87,7 +87,7 @@ News
                     <div class="text-left">
                         <div>
                             <h4 class="border-success">
-                                <span class="heading_border bg-success">Hot News</span>
+                                <span class="heading_border bg-success">Tendances</span>
                             </h4>
                         </div>
                     </div>
@@ -181,7 +181,7 @@ News
                     <div class="text-left">
                         <div>
                             <h4 class="border-primary">
-                                <span class="heading_border bg-primary">World News</span>
+                                <span class="heading_border bg-primary">Tendances du monde</span>
                             </h4>
                         </div>
                     </div>
@@ -220,7 +220,7 @@ News
                 @php $first = $business->shift(); @endphp
                 <div class="col-sm-6 news-body mt-20">
                     <h4 class="border-danger">
-                        <span class="heading_border bg-danger">Business News</span>
+                        <span class="heading_border bg-danger">Tendances  du Business </span>
                     </h4>
                     <a href="{{route('news.show', $first['id'])  }}">
                         @if($first->image)
@@ -271,7 +271,7 @@ News
                     <div class="text-left">
                         <div>
                             <h4 class="border-success">
-                                <span class="heading_border bg-success">Sports News</span>
+                                <span class="heading_border bg-success">Tendances de Sports </span>
                             </h4>
                         </div>
                     </div>
@@ -328,11 +328,11 @@ News
                     <ul class="nav nav-tabs ">
                         <li class=" nav-item ">
                             <a href="#tab_default_1" data-toggle="tab" class="nav-link active">
-                                Popular </a>
+                                Populaire </a>
                         </li>
                         <li class="nav-item">
                             <a href="#tab_default_2" data-toggle="tab" class="nav-link">
-                                Recent </a>
+                                Récent </a>
                         </li>
                     </ul>
                     <hr class="horizontalline">
@@ -350,7 +350,7 @@ News
                                     <a href="#">
                                         <h5 class="">Efficiently unleash cross-media information
                                             without cross-media value.</h5>
-                                    </a><span class="text-danger">May 10, 2015</span>
+                                    </a><span class="text-danger">Juillet 10, 2020</span>
                                 </div>
                             </div>
                             <div class="media">
@@ -363,7 +363,7 @@ News
                                     <a href="#">
                                         <h5 class="">Efficiently unleash cross-media information
                                             without cross-media value.</h5>
-                                    </a><span class="text-danger">May 8, 2015</span>
+                                    </a><span class="text-danger">Juin 8, 20</span>
                                 </div>
                             </div>
                             <div class="media">
@@ -376,7 +376,7 @@ News
                                     <a href="#">
                                         <h5 class="">Efficiently unleash cross-media information
                                             without cross-media value.</h5>
-                                    </a><span class="text-danger">May5, 2015</span>
+                                    </a><span class="text-danger">juillet 23, 2020</span>
                                 </div>
                             </div>
                         </div>
@@ -426,7 +426,7 @@ News
                 </div>
             </div>
             <div class="comments my-1 p-1">
-                <h3>Comments</h3>
+                <h3>Commentaires</h3>
                 <div class="media">
                     <div class="media-left">
                         <a href="#">

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Register | Welcome to Josh Frontend</title>
+    <title>Register | Bienvenue</title>
     <!--global css starts-->
     <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.css') }}">
     <link rel="shortcut icon" href="{{ asset('images/favicon.png') }}" type="image/x-icon">
@@ -24,7 +24,7 @@
         <div class="row">
             <div class="box animation flipInX">
                 <img src="{{ asset('images/josh-new.png') }}" alt="logo" class="img-responsive mar">
-                <h3 class="text-primary">Sign Up</h3>
+                <h3 class="text-primary">S'incrire</h3>
                 <!-- Notifications -->
                 <div id="notific">
                     @include('notifications')
@@ -34,14 +34,14 @@
                     <input type="hidden" name="_token" value="{{ csrf_token() }}" />
 
                     <div class="form-group {{ $errors->first('first_name', 'has-error') }}">
-                        <label class="sr-only"> First Name</label>
+                        <label class="sr-only"> Prénom</label>
                         <input type="text" class="form-control" id="first_name" name="first_name"
-                            placeholder="First Name" value="{!! old('first_name') !!}">
+                            placeholder="Prénom" value="{!! old('first_name') !!}">
                         {!! $errors->first('first_name', '<span class="help-block">:message</span>') !!}
                     </div>
                     <div class="form-group {{ $errors->first('last_name', 'has-error') }}">
-                        <label class="sr-only"> Last Name</label>
-                        <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Last Name"
+                        <label class="sr-only">  Nom</label>
+                        <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Nom"
                             value="{!! old('last_name') !!}">
                         {!! $errors->first('last_name', '<span class="help-block">:message</span>') !!}
                     </div>
@@ -54,34 +54,34 @@
                     <div class="form-group {{ $errors->first('password', 'has-error') }}">
                         <label class="sr-only"> Password</label>
                         <input type="password" class="form-control" id="Password1" name="password"
-                            placeholder="Password">
+                            placeholder="Mot de passe">
                         {!! $errors->first('password', '<span class="help-block">:message</span>') !!}
                     </div>
                     <div class="form-group {{ $errors->first('password_confirm', 'has-error') }}">
-                        <label class="sr-only"> Confirm Password</label>
+                        <label class="sr-only"> Confirmer le mot de passe</label>
                         <input type="password" class="form-control" id="Password2" name="password_confirm"
-                            placeholder="Confirm Password">
+                            placeholder="Confirmer le mot de passe">
                         {!! $errors->first('password_confirm', '<span class="help-block">:message</span>') !!}
                     </div>
                     <div class="clearfix"></div>
                     <div class="form-group {{ $errors->first('gender', 'has-error') }}">
-                        <label class="sr-only">Gender</label>
+                        <label class="sr-only">Sexe</label>
                         <label class="radio-inline">
                             <input type="radio" name="gender" id="inlineRadio1" value="male"> Male
                         </label>
                         <label class="radio-inline">
-                            <input type="radio" name="gender" id="inlineRadio2" value="female"> Female
+                            <input type="radio" name="gender" id="inlineRadio2" value="female"> Femelle
                         </label>
                         {!! $errors->first('gender', '<span class="help-block">:message</span>') !!}
                     </div>
                     <div class="checkbox">
                         <label>
-                            <input type="checkbox" name="subscribed"> I accept <a href="#"> Terms and Conditions</a>
+                            <input type="checkbox" name="subscribed"> J'accepte <a href="#">le Termes et les Conditions</a>
                         </label>
                     </div>
                     <div class="g-recaptcha" data-sitekey="{{ env('GOOGLE_RECAPTCHA_KEY') }}"></div>
-                    <button type="submit" class="btn btn-block br-0 btn-primary my-2">Sign Up</button>
-                    Already have an account? Please <a href="{{ route('login') }}"> Log In</a>
+                    <button type="submit" class="btn btn-block br-0 btn-primary my-2">S'inscrie</button>
+                Vous avez dèjà un comptet? Merci de  <a href="{{ route('login') }}"> <br> Se connecter</a>
                 </form>
             </div>
         </div>

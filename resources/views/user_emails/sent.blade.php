@@ -29,7 +29,7 @@
                         </li>
                     </ol>
                     <div class="float-right mt-1">
-                        <i class="livicon icon3" data-name="pen" data-size="20" data-loop="true" data-c="#3d3d3d" data-hc="#3d3d3d"></i> Sent
+                        <i class="livicon icon3" data-name="pen" data-size="20" data-loop="true" data-c="#3d3d3d" data-hc="#3d3d3d"></i> Envoyé
                     </div>
                 </div>
             </div>
@@ -42,7 +42,7 @@
     <aside class="right-aside">
     <!-- Content Header (Page header) -->
         <div class="container my-3">
-            <h2 >Sent</h2>
+            <h2 >Envoyé</h2>
     <!-- Main content -->
     <section class="content pr-3 pl-3">
         <div class="row web-mail">
@@ -52,13 +52,13 @@
                         <li class="compose">
                             <a href="{{ URL::to('user_emails/compose') }}">
                                 <i class="fa fa-fw fa-envelope"></i>
-                                &nbsp; &nbsp;Compose
+                                &nbsp; &nbsp;Composer
                             </a>
                         </li>
                         <li>
                             <a href="{{ URL::to('user_emails/inbox') }}">
                                 <i class="fa fa-inbox" aria-hidden="true"></i>
-                                &nbsp; &nbsp;Inbox
+                                &nbsp; &nbsp;Reçu
                                 @if($count>0)
                                     <span class="badge badge-success float-right mt-1 badge-pill">{{ $count}}</span>
                                 @endif
@@ -67,7 +67,7 @@
                         <li class="active">
                             <a href="{{ URL::to('user_emails/sent') }}">
                                 <i class="fa fa-paper-plane" aria-hidden="true"></i>
-                                &nbsp; &nbsp; Sent
+                                &nbsp; &nbsp; Envoyé
                             </a>
                         </li>
                     </ul>
@@ -81,7 +81,7 @@
                             <td colspan="6" class="bg-primary">
                                 <div class="col-md-8">
                                     <h4 class="mb-0">
-                                        <strong>Sent</strong>
+                                        <strong>Envoyé</strong>
                                     </h4>
                                 </div>
                             </td>
@@ -97,19 +97,19 @@
                                             <ul class="dropdown-menu ul" aria-labelledby="dropdownMenuButton" l>
                                                 <!-- dropdown menu links -->
                                                 <li>
-                                                    <a href="#" class="all dropdown-item">All</a>
+                                                    <a href="#" class="all dropdown-item">Tous</a>
                                                 </li>
                                                 <li>
-                                                    <a href="#" class="mark_as_read dropdown-item">Read</a>
+                                                    <a href="#" class="mark_as_read dropdown-item">Lu</a>
                                                 </li>
                                                 <li>
-                                                    <a href="#" class="mark_as_unread dropdown-item">UnRead</a>
+                                                    <a href="#" class="mark_as_unread dropdown-item">Non lu</a>
                                                 </li>
                                                 <li>
-                                                    <a href="#" class="mark_as_star dropdown-item">Starred</a>
+                                                    <a href="#" class="mark_as_star dropdown-item">Etoilé</a>
                                                 </li>
                                                 <li>
-                                                    <a href="#"  class="mark_as_unstar dropdown-item">Unstarred</a>
+                                                    <a href="#"  class="mark_as_unstar dropdown-item">Non étoilé</a>
                                                 </li>
 
                                             </ul>

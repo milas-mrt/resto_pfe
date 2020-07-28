@@ -17,7 +17,7 @@ View Mail
 @section('content')
 
 <section class="content-header">
-                <h1>Single Mail</h1>
+                <h1> Mail</h1>
                 <ol class="breadcrumb">
                     <li>
                         <a href="{{ route('admin.dashboard') }}">
@@ -28,7 +28,7 @@ View Mail
                     <li>
                         <a href="{{ URL::to('admin/inbox') }}">Email</a>
                     </li>
-                    <li class="active">Single Mail</li>
+                    <li class="active"> Mail</li>
                 </ol>
             </section>
             <!-- Main content -->
@@ -40,19 +40,19 @@ View Mail
                                 <li class="compose">
                                     <a href="{{ URL::to('admin/compose') }}">
                                         <i class="livicon" data-n="pen" data-s="16" data-c="white"></i>
-                                        &nbsp; &nbsp;Compose
+                                        &nbsp; &nbsp;Composer
                                     </a>
                                 </li>
                                 <li class="active">
                                     <a href="{{ URL::to('admin/inbox') }}">
                                         <i class="livicon" data-n="inbox" data-s="16" data-c="white"></i>
-                                        &nbsp; &nbsp;Inbox
+                                        &nbsp; &nbsp;Reçu
                                     </a>
                                 </li>
                                 <li>
                                     <a href="{{ URL::to('admin/sent') }}">
                                         <i class="livicon" data-n="check-circle" data-s="16" data-c="gray"></i>
-                                        &nbsp; &nbsp; Sent
+                                        &nbsp; &nbsp; Envoyé
                                     </a>
                                 </li>
                                 <li>
@@ -84,7 +84,7 @@ View Mail
                                         <td colspan="4" class="bg-primary text-white p-2">
                                             <div class="col-md-8">
                                                 <h4>
-                                                    <strong>Single Mail</strong>
+                                                    <strong> Mail</strong>
                                                 </h4>
                                             </div>
                                         </td>
@@ -115,7 +115,7 @@ View Mail
                                                                 <a href="#">&laquo;</a>
                                                             </li>
                                                             <li>
-                                                                <a>1 of 228</a>
+                                                                <a>1 sur 228</a>
                                                             </li>
                                                             <li class="">
                                                                 <a href="#">&raquo;</a>

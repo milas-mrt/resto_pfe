@@ -4,7 +4,7 @@
     {{-- Header --}}
     @slot('header')
         @component('mail::header', ['url' => config('app.url')])
-            Josh Admin
+            Resto Admin
         @endcomponent
     @endslot
 
@@ -14,16 +14,16 @@
 
     Please click on the following link to updated your password
 @component('mail::button', ['url' =>  $user['forgotPasswordUrl'] ])
-        Reset Password
-@endcomponent
+        Rénitialiser le mot de passe
+        @endcomponent
 
 
-    Thanks,
+    Merci,
 
     {{-- Footer --}}
     @slot('footer')
     @component('mail::footer')
-    &copy; 2018 All Copy right received
+    &copy; 2020 All Copy right received
 @endcomponent
 @endslot
 @endcomponent

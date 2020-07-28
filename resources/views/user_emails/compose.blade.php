@@ -30,7 +30,7 @@
                         </li>
                     </ol>
                     <div class="float-right mt-1">
-                        <i class="livicon icon3" data-name="pen" data-size="20" data-loop="true" data-c="#3d3d3d" data-hc="#3d3d3d"></i> Compose
+                        <i class="livicon icon3" data-name="pen" data-size="20" data-loop="true" data-c="#3d3d3d" data-hc="#3d3d3d"></i> Composer un email
                     </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@
                     </div>
                 </div>
             @endif
-            <h2 >Compose</h2>
+            <h2 >Composer un email</h2>
     <!-- Main content -->
     <section class="content pr-3 pl-3">
         <div class="row ">
@@ -69,13 +69,13 @@
                         <li class="compose">
                             <a href="{{ URL::to('user_emails/compose') }}">
                                 <i class="fa fa-fw fa-envelope"></i>
-                                &nbsp; &nbsp;Compose
+                                &nbsp; &nbsp;Composer un email
                             </a>
                         </li>
                         <li>
                             <a href="{{ URL::to('user_emails/inbox') }}">
                                 <i class="fa fa-inbox" aria-hidden="true"></i>
-                                &nbsp; &nbsp;Inbox
+                                &nbsp; &nbsp;Reçu
                                 @if($count>0)
                                     <span class="badge badge-success float-right badge-pill mt-1">{{ $count}}</span>
                                 @endif
@@ -84,7 +84,7 @@
                         <li>
                             <a href="{{ URL::to('user_emails/sent') }}">
                                 <i class="fa fa-paper-plane" aria-hidden="true"></i>
-                                &nbsp; &nbsp;Sent
+                                &nbsp; &nbsp;Envoyé
                             </a>
                         </li>
                     </ul>
@@ -94,7 +94,7 @@
                 <div class="card border-primary">
                     <div class="card-header bg-primary border-bottom">
                         <h4 class="mb-0">
-                            <strong>Compose</strong>
+                            <strong>Composer un email</strong>
                         </h4>
                     </div>
                     <div class="card-body">
@@ -115,7 +115,7 @@
                                 </div>
                                 <div class="clear"></div>
                                 <div class="form-group  {{ $errors->first('subject', 'has-error') }}">
-                                    <label class="col-xs-2 control-label hidden-xs" for="subject">Subject:</label>
+                                    <label class="col-xs-2 control-label hidden-xs" for="subject">Sujet:</label>
                                     <div class="col-xs-9">
                                         <input type="text" name="subject" class="form-control required" id="subject" tabindex="1"
                                                placeholder="Subject">
@@ -133,12 +133,12 @@
                             <div class="col-xs-12">
                                 <button type="submit" class="btn btn-sm  btn-primary btn_margin_top">
                                     <i class="fa fa-paper-plane" aria-hidden="true"></i>
-                                    Send
+                                    Envoyé
                                 </button>
 
                                 <a href="#" class="btn btn-sm btn-success btn_margin_top text-white">
                                     <i class="fa fa-archive" aria-hidden="true"></i>
-                                    Draft
+                                    Brouillon
                                 </a>
                             </div>
 
@@ -215,18 +215,18 @@
                     email_id: {
                         validators: {
                             notEmpty: {
-                                message: 'The email address is required'
+                                message: 'L`adresse mail est obligatoire'
                             },
                             regexp: {
                                 regexp: /^\S+@\S{1,}\.\S{1,}$/,
-                                message: 'The input is not a valid email address'
+                                message: 'Ce n`est pas un email valide'
                             }
                         }
                     },
                     subject: {
                         validators: {
                             notEmpty: {
-                                message: 'Subject is required and cannot be empty'
+                                message: 'Le sujet est obligatoire et ne peut pas etre vide'
                             }
                         },
                         minlength: 20

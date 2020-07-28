@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>404 page | Welcome to Josh Frontend</title>
+    <title>404 page | Bienvenue</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <!-- global level css-->
     <link rel="stylesheet" type="text/css" href="{{ asset('css/lib.css') }}">
@@ -28,6 +28,7 @@
         <div class="number">4</div>
         <div class="icon"> <i class="livicon" data-name="pacman" data-size="105" data-c="#f6c500" data-hc="#f1b21d" data-eventtype="click" data-iteration="15"></i>
         </div>
+        <div class="number">0</div>
         <div class="number">4</div>
     </div>
     <div class="hgroup">

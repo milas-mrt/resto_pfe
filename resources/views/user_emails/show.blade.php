@@ -29,7 +29,7 @@
                         </li>
                     </ol>
                     <div class="float-right mt-1">
-                        <i class="livicon icon3" data-name="pen" data-size="20" data-loop="true" data-c="#3d3d3d" data-hc="#3d3d3d"></i> View Mail
+                        <i class="livicon icon3" data-name="pen" data-size="20" data-loop="true" data-c="#3d3d3d" data-hc="#3d3d3d"></i> Voir le Mail
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@
 @section('content')
     <aside class="right-aside">
         <div class="container my-3">
-            <h2 >View Mail</h2>
+            <h2 >Voir le Mail</h2>
     <!-- Main content -->
     <section class="content pl-3 pr-3">
         <div class="row web-mail">
@@ -51,13 +51,13 @@
                         <li class="compose">
                             <a href="{{ URL::to('user_emails/compose') }}">
                                 <i class="fa fa-fw fa-envelope"></i>
-                                &nbsp; &nbsp;Compose
+                                &nbsp; &nbsp;Composer
                             </a>
                         </li>
                         <li class="active">
                             <a href="{{ URL::to('user_emails/inbox') }}">
                                 <i class="fa fa-inbox" aria-hidden="true"></i>
-                                &nbsp; &nbsp;Inbox
+                                &nbsp; &nbsp;Reçu
                                 @if($count>0)
                                     <span class="badge badge-success float-right badge-pill mt-1">{{ $count}}</span>
                                 @endif
@@ -66,7 +66,7 @@
                         <li>
                             <a href="{{ URL::to('user_emails/sent') }}">
                                 <i class="fa fa-paper-plane" aria-hidden="true"></i>
-                                &nbsp; &nbsp; Sent
+                                &nbsp; &nbsp; Envoyé
                             </a>
                         </li>
                     </ul>
@@ -80,7 +80,7 @@
                             <td colspan="4" class="bg-primary">
                                 <div class="col-md-8">
                                     <h4 class="mb-0">
-                                        <strong>Single Mail</strong>
+                                        <strong>Un Mail</strong>
                                     </h4>
                                 </div>
                             </td>
@@ -155,13 +155,13 @@
                                     <div class="col-6 col-sm-4 no-padding col-md-3 mt-3 col-lg-3 col-xl-2">
                                         <a href="{{ URL::to('user_emails/'.$email->id.'/reply') }}" class="btn btn-sm btn-primary text-white">
                                             <span class="fa fa-reply"></span>
-                                            &nbsp;&nbsp;Reply
+                                            &nbsp;&nbsp;Répondre
                                         </a>
                                     </div>
                                     <div class="col-6 col-sm-4 no-padding col-md-3 mt-3 col-lg-3 col-xl-2">
                                         <a href="{{ URL::to('user_emails/'.$email->id.'/forward') }}" class="btn btn-sm btn-success  text-white">
                                             <span class="fa fa-share"></span>
-                                            &nbsp;&nbsp;Forward
+                                            &nbsp;&nbsp;Transférer
                                         </a>
                                     </div>
                                 </div>

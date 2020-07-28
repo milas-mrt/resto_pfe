@@ -28,7 +28,7 @@ User Profile
 
 <section class="content-header">
                 <h1>
-                    User Profile
+                     Profil d'utilisateur
                 </h1>
                 <ol class="breadcrumb">
                     <li>
@@ -38,7 +38,7 @@ User Profile
                         </a>
                     </li>
                     <li>Users</li>
-                    <li class="active">View Profile</li>
+                    <li class="active">Voir le profil</li>
                 </ol>
             </section>
             <section class="content user_profile pl-3 pr-3">
@@ -69,11 +69,11 @@ User Profile
                                             <div>
                                                 <span class="btn btn-secondary btn-file">
                                                     <span class="fileinput-new">
-                                                        Select image
+                                                        Selectionner une image
                                                     </span>
                                                     <span class="fileinput-exists">Change</span>
                                                     <input type="file" name="..."></span>
-                                                <a href="#" class="btn btn-secondary fileinput-exists" data-dismiss="fileinput">Remove</a>
+                                                <a href="#" class="btn btn-secondary fileinput-exists" data-dismiss="fileinput">Supprimmer</a>
                                             </div>
                                         </div>
                                     </div>
@@ -82,7 +82,7 @@ User Profile
                                     <table class="table  table-striped" id="users">
 
                                         <tr>
-                                            <td>User Name</td>
+                                            <td> Nom d'utilisateur</td>
                                             <td>
                                                 <a href="#" data-pk="1" class="editable" data-title="Edit User Name">Bella</a>
                                             </td>
@@ -97,7 +97,7 @@ User Profile
                                         </tr>
                                         <tr>
                                             <td>
-                                                Phone Number
+                                                Numéro téléphone
                                             </td>
                                             <td>
                                                 <a href="#" data-pk="1" class="editable" data-title="Edit Phone Number">
@@ -106,7 +106,7 @@ User Profile
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Address</td>
+                                            <td>Adresse</td>
                                             <td>
                                                 <a href="#" data-pk="1" class="editable" data-title="Edit Address">
                                                     Sydney, Australia
@@ -114,19 +114,19 @@ User Profile
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Status</td>
+                                            <td>Etat</td>
                                             <td>
                                                 <a href="#" id="status" data-type="select" data-pk="1" data-value="1" data-title="Status"></a>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Created At</td>
+                                            <td>Créé </td>
                                             <td>
                                                 1 month ago
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>City</td>
+                                            <td>Ville</td>
                                             <td>
                                                 <a href="#" data-pk="1"  class="editable" data-title="Edit City">Nakia</a>
                                             </td>
@@ -135,7 +135,7 @@ User Profile
                                 </div>
                                     <div class="card colr-hed">
                                         <div class="card-header">
-                                            <span>Friends</span>
+                                            <span>Amis</span>
                                         </div>
                                         <div class="card-body">
                                             <div class="row">
@@ -232,7 +232,7 @@ User Profile
                                 <ul class="nav nav-tabs ul-edit">
                                     <li class=" nav-item">
                                         <a href="#tab-activity" data-toggle="tab" class="nav-link active">
-                                            <i class="livicon" data-name="comments" data-size="16" data-c="#01BC8C" data-hc="#01BC8C" data-loop="true"></i> Activity
+                                            <i class="livicon" data-name="comments" data-size="16" data-c="#01BC8C" data-hc="#01BC8C" data-loop="true"></i> Activité
                                         </a>
                                     </li>
 
@@ -243,7 +243,7 @@ User Profile
                                     </li>
                                     <li class="nav-item">
                                         <a href="#tab-change-pwd" data-toggle="tab" class="nav-link">
-                                            <i class="livicon" data-name="key" data-size="16" data-c="#01BC8C" data-hc="#01BC8C" data-loop="true"></i> Change Password
+                                            <i class="livicon" data-name="key" data-size="16" data-c="#01BC8C" data-hc="#01BC8C" data-loop="true"></i> Modifier le mot de passe
                                         </a>
                                     </li>
                                 </ul>
@@ -486,7 +486,7 @@ User Profile
                                                             <div class="row">
 
                                                             <label  class="col-md-3 control-label">
-                                                                Password
+                                                                Mot de passe
 
                                                             </label>
                                                             <div class="col-md-9">
@@ -504,7 +504,7 @@ User Profile
                                                         <div class="form-group">
                                                             <div class="row">
                                                             <label class="col-md-3 control-label">
-                                                                Confirm Password
+                                                                Confirmer le mot de passe
 
                                                             </label>
                                                             <div class="col-md-9">
@@ -522,7 +522,7 @@ User Profile
                                                     </div>
                                                     <div class="form-actions">
                                                         <div class="col-md-offset-3 col-md-9 ml-auto">
-                                                            <button type="submit" class="btn btn-primary" id="change-password">Submit</button>
+                                                            <button type="submit" class="btn btn-primary" id="change-password">Soumettre</button>
                                                             &nbsp;
                                                             {{--<button type="reset" class="btn btn-danger">Cancel</button>--}}
                                                             &nbsp;

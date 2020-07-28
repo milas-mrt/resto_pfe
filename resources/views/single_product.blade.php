@@ -32,12 +32,12 @@ Single Product| Welcome to Josh Frontend
                     <li class="d-none d-sm-block">
                         <i class="livicon icon3" data-name="angle-double-right" data-size="18" data-loop="true"
                             data-c="#01bc8c" data-hc="#01bc8c"></i>
-                        <a href="#">Single Product</a>
+                        <a href="#">Un Produit</a>
                     </li>
                 </ol>
                 <div class="float-right mt-1">
                     <i class="livicon icon3" data-name="edit" data-size="20" data-loop="true" data-c="#3d3d3d"
-                        data-hc="#3d3d3d"></i> Single Product
+                        data-hc="#3d3d3d"></i> Un Produit
                 </div>
             </div>
         </div>
@@ -99,8 +99,8 @@ Single Product| Welcome to Josh Frontend
                 <del class="text-danger">$1000</del>
             </div>
             <div class="text-big4">$750</div>
-            <a href="#" class="btn btn-primary btn-lg text-white">Add to Cart</a>
-            <h4 class="my-2">Quantity</h4>
+            <a href="#" class="btn btn-primary btn-lg text-white">Ajouter au panier</a>
+            <h4 class="my-2">Quantité</h4>
             <form>
                 <div class="form-group">
                     <input type="number" class="form-control" min="1" style="width:70px;">
@@ -124,7 +124,7 @@ Single Product| Welcome to Josh Frontend
                         </li>
                         <li class="nav-item">
                             <a href="#tab_default_2" data-toggle="tab" class="nav-link">
-                                Reviews </a>
+                                Commentaire </a>
                         </li>
                     </ul>
                     <hr class="horizontalline">
@@ -165,7 +165,7 @@ Single Product| Welcome to Josh Frontend
                                 <div class="col-sm-4">
                                     <form>
                                         <div class="form-group">
-                                            <label>Name:</label>
+                                            <label>nom:</label>
                                             <input type="text" class="form-control">
                                         </div>
                                         <div class="form-group">
@@ -173,16 +173,16 @@ Single Product| Welcome to Josh Frontend
                                             <input type="email" class="form-control">
                                         </div>
                                         <div class="form-group">
-                                            <label>Review</label>
+                                            <label>Commentaire</label>
                                             <textarea class="form-control" rows="3" id="resize_vert"></textarea>
                                         </div>
                                         <div class="form-group">
-                                            <label for="username" class="uname">Your Ratings:</label>
+                                            <label for="username" class="uname">Votre note:</label>
                                             <input type="hidden" id="rating3" class="rating form-control"
                                                 data-filled="fa fa-star fa-1x" data-empty="fa fa-star-o fa-1x" />
                                         </div>
                                         <div class="form-group">
-                                            <a href="#" class="btn btn-primary text-white">Submit</a>
+                                            <a href="#" class="btn btn-primary text-white">Soumettre</a>
                                         </div>
                                     </form>
                                 </div>
@@ -242,7 +242,7 @@ Single Product| Welcome to Josh Frontend
     </div>
     <!--item desciption end-->
     <!--recently view item-->
-    <h2 class="text-primary"> Recently Viewed</h2>
+    <h2 class="text-primary"> Vu récemment :</h2>
     <div class="divider"></div>
     <div class="row">
         <div class="flip-3d">
@@ -251,8 +251,8 @@ Single Product| Welcome to Josh Frontend
                 <figcaption>
                     <h4 class="text-white">Floral Printed Saree</h4>
                     <ul class="text-white">
-                        <li>Product Type - Women's Saree</li>
-                        <li>Color - Multi Colour</li>
+                        <li>Type de Produit  - Women's Saree</li>
+                        <li>Couleur - Multi Colour</li>
                     </ul>
                     <h4 class="text-white">
                         <del class="text-danger">Rs. 1599.00</del>

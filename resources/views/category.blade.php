@@ -38,7 +38,7 @@ Categories
                 </li>
             </ol>
             <div class="float-right mt-1">
-                <i class="livicon icon3" data-name="edit" data-size="20" data-loop="true" data-c="#3d3d3d" data-hc="#3d3d3d"></i> Categories
+                <i class="livicon icon3" data-name="edit" data-size="20" data-loop="true" data-c="#3d3d3d" data-hc="#3d3d3d"></i> Catégories
             </div>
         </div>
     </div>
@@ -52,7 +52,7 @@ Categories
     <!-- Container Section Start -->
     <div class="container my-3">
         <!--recently view item-->
-        <h2 class="text-primary"> Categories</h2>
+        <h2 class="text-primary"> Catégories</h2>
         <div class="divider"></div>
         <div class="row">
             <div class=" col-12 col-sm-6 col-md-6 col-lg-3 flip-3d">

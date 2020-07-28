@@ -33,7 +33,7 @@ Grid
                 </ol>
                 <div class="float-right mt-1">
                     <i class="livicon icon3" data-name="responsive-menu" data-size="20" data-loop="true"
-                        data-c="#3d3d3d" data-hc="#3d3d3d"></i> Grid System
+                        data-c="#3d3d3d" data-hc="#3d3d3d"></i>  Système Grid
                 </div>
             </div>
         </div>
@@ -47,7 +47,7 @@ Grid
 <!-- Container Section Start -->
 <div class="container my-3">
     <!-- Grid Section Start -->
-    <h2 class="ml-4">Grid System</h2>
+    <h2 class="ml-4">Système Grid</h2>
     <div class="row">
         <div class="col-12">
             <form class="grid">

@@ -19,7 +19,7 @@
 @section('content')
 
     <section class="content-header">
-        <h1>Deleted users</h1>
+        <h1> Utilisateurs supprimés</h1>
         <ol class="breadcrumb">
             <li>
                 <a href="{{ route('admin.dashboard') }}">
@@ -27,8 +27,8 @@
                     Dashboard
                 </a>
             </li>
-            <li><a href="#"> Users</a></li>
-            <li class="active">Deleted users</li>
+            <li><a href="#"> Utilisateurs</a></li>
+            <li class="active">Utilisateurs supprimés</li>
         </ol>
     </section>
     <!-- Main content -->
@@ -40,7 +40,7 @@
                         <span>
                             <i class="livicon" data-name="users-remove" data-size="18" data-c="#ffffff"
                                data-hc="#ffffff"></i>
-                            Deleted Users List
+                              Liste des utilisateurs supprimés
                         </span>
                     </div>
                     <div class="card-body">
@@ -48,10 +48,10 @@
                             <table class="table table-bordered" id="table">
                                 <thead>
                                 <tr class="filters">
-                                    <th>First Name</th>
-                                    <th>Last Name</th>
-                                    <th>User E-mail</th>
-                                    <th>Deleted At</th>
+                                    <th>Prénom</th>
+                                    <th>Nom</th>
+                                    <th> E-mail</th>
+                                    <th>Supprimé il y a</th>
                                     <th>Actions</th>
                                 </tr>
                                 </thead>

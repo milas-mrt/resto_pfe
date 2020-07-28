@@ -5,7 +5,7 @@
     {{--<meta charset="utf-8">--}}
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Forgot_password | Welcome to Josh Frontend</title>
+    <title>mot de passe oublié | Bienvenue</title>
     <!--global css starts-->
     <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.css') }}">
     <link href="{{ asset('vendors/bootstrapvalidator/css/bootstrapValidator.min.css') }}" rel="stylesheet" />
@@ -22,8 +22,8 @@
         <div class="row">
             <div class="box animation flipInX">
                 <img src="{{ asset('images/josh-new.png') }}" alt="logo" class="img-responsive mar">
-                <h3 class="text-primary">Forgot Password</h3>
-                <p>Enter your email to reset your password</p>
+                <h3 class="text-primary">Mot de passe oublié</h3>
+                <p>Entrer votre email pour renitialiser votre mot de passe</p>
                 <div id="notific">
                     @include('notifications')
                 </div>
@@ -40,7 +40,7 @@
                     </div>
                 </form>
 
-                Back to login page?<a href="{{ route('login') }}"> Click here</a>
+                Retour vers la page d'athentification ?<a href="{{ route('login') }}"> Cliquer ici</a>
             </div>
         </div>
     </div>

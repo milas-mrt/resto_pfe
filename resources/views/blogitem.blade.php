@@ -28,12 +28,12 @@
                     <li>
                         <i class="livicon icon3" data-name="angle-double-right" data-size="18" data-loop="true"
                             data-c="#01bc8c" data-hc="#01bc8c"></i>
-                        <a href="#">Blog Item</a>
+                        <a href="#">Article Blog </a>
                     </li>
                 </ol>
                 <div class="float-right mt-1">
                     <i class="livicon icon3" data-name="doc-landscape" data-size="20" data-loop="true" data-c="#3d3d3d"
-                        data-hc="#3d3d3d"></i> Blog Item
+                        data-hc="#3d3d3d"></i>Article Blog 
                 </div>
             </div>
         </div>
@@ -108,7 +108,7 @@
             </ul>
             <!-- //Media left section End -->
             <!-- Comment Section Start -->
-            <h3>Leave a Comment</h3>
+            <h3>Laissez un Commentaire </h3>
             {!! Form::open(['url' => URL::to('blogitem/'.$blog->id.'/comment'), 'method' => 'post', 'class' => 'bf',
             'files'=> true]) !!}
 
@@ -135,7 +135,7 @@
                 <button type="submit" class="btn btn-success btn-md">
                     <i class="livicon" data-name="comment" data-c="#FFFFFF" data-hc="#FFFFFF" data-size="18"
                         data-loop="true"></i>
-                    Submit
+                    Soumettre
                 </button>
             </div>
             {!! Form::close() !!}
@@ -158,7 +158,7 @@
                                 <a href="#">Elizabeth Owens at Duis autem vel eum iriure dolor in hendrerit in</a>
                             </h4>
                             <p class="date">
-                                <small class="text-danger">2hours ago</small>
+                                <small class="text-danger">Il y a 2 heures</small>
                             </p>
                             <p class="small">
                                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
@@ -177,7 +177,7 @@
                                 <a href="#">Harold Chavez at Duis autem vel eum iriure dolor in hendrerit in</a>
                             </h4>
                             <p class="date">
-                                <small class="text-danger">5hours ago</small>
+                                <small class="text-danger">Il y a 5 heures </small>
                             </p>
                             <p class="small">
                                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
@@ -196,7 +196,7 @@
                                 <a href="#">Mihaela Cihac at Duis autem vel eum iriure dolor in hendrerit in</a>
                             </h4>
                             <p class="date">
-                                <small class="text-danger">10hours ago</small>
+                                <small class="text-danger">Il y a 10 heures</small>
                             </p>
                             <p class="small">
                                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante

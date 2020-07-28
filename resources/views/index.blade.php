@@ -38,12 +38,15 @@ Home
     <section class="purchas-main">
         <div class="container bg-border wow pulse" data-wow-duration="2.5s">
             <div class="row">
-                <div class="col-md-7 col-sm-12 col-12 col-lg-8">
-                    <h1 class="purchae-hed mt-3">Excellent admin template for laravel</h1>
+                <div class="col-md-7 col-sm-12 col-12 col-lg-4">
+                    <h1 class="purchae-hed mt-3">Bienvenue chez nous </h1>
                 </div>
                 <div class="col-md-5 col-sm-12 col-12 col-lg-4"><a href="#"
-                        class="btn purchase-styl float-lg-right">Purchase
-                        now</a></div>
+                        class="btn purchase-styl float-lg-right">Commander
+                        </a></div>
+                        <div class="col-md-5 col-sm-12 col-12 col-lg-4"><a href="#"
+                        class="btn purchase-styl float-lg-right">Réserver
+                        </a></div>
             </div>
         </div>
     </section>
@@ -51,7 +54,7 @@ Home
     <div class="row">
         <!-- Responsive Section Start -->
         <div class="col-12 text-center my-3">
-            <h3 class="border-primary"><span class="heading_border bg-primary mx-auto">Our Services</span></h3>
+            <h3 class="border-primary"><span class="heading_border bg-primary mx-auto">Nos Services</span></h3>
         </div>
         <div class="col-sm-6 col-md-6 col-lg-3 wow bounceInLeft" data-wow-duration="3.5s">
             <div class="box">
@@ -64,7 +67,7 @@ Home
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti atque, tenetur quam aspernatur
                         corporis at explicabo nulla dolore necessitatibus doloremque exercitationem sequi dolorem
                         architecto perferendis quas aperiam debitis dolor soluta!</p>
-                    <div class="text-right primary"><a href="#">Read more</a>
+                    <div class="text-right primary"><a href="#">Lire plus</a>
                     </div>
                 </div>
             </div>
@@ -83,7 +86,7 @@ Home
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti atque, tenetur quam aspernatur
                         corporis at explicabo nulla dolore necessitatibus doloremque exercitationem sequi dolorem
                         architecto perferendis quas aperiam debitis dolor soluta!.</p>
-                    <div class="text-right primary"><a href="#">Read more</a>
+                    <div class="text-right primary"><a href="#">Lire plus</a>
                     </div>
                 </div>
             </div>
@@ -101,7 +104,7 @@ Home
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti atque, tenetur quam aspernatur
                         corporis at explicabo nulla dolore necessitatibus doloremque exercitationem sequi dolorem
                         architecto perferendis quas aperiam debitis dolor soluta!</p>
-                    <div class="text-right primary"><a href="#">Read more</a>
+                    <div class="text-right primary"><a href="#">Lire plus</a>
                     </div>
                 </div>
             </div>
@@ -119,7 +122,7 @@ Home
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti atque, tenetur quam aspernatur
                         corporis at explicabo nulla dolore necessitatibus doloremque exercitationem sequi dolorem
                         architecto perferendis quas aperiam debitis dolor soluta!</p>
-                    <div class="text-right primary"><a href="#">Read more</a>
+                    <div class="text-right primary"><a href="#">Lire plus</a>
                     </div>
                 </div>
             </div>
@@ -282,7 +285,7 @@ Home
                             <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
                                 aria-expanded="true" aria-controls="collapseOne">
                                 <i class="fa fa-minus success"></i>
-                                <span class="success">Why Choose Us</span>
+                                <span class="success">Pourquoi choisser nous ?</span>
                             </button>
                         </h5>
                     </div>
@@ -305,7 +308,7 @@ Home
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
                                 aria-expanded="false" aria-controls="collapseTwo">
                                 <i class="fa fa-plus success"></i>
-                                <span class="success">Why Choose Us</span>
+                                <span class="success">Pourquoi choisser nous ?</span>
                             </button>
                         </h5>
                     </div>
@@ -327,7 +330,7 @@ Home
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
                                 aria-expanded="false" aria-controls="collapseThree">
                                 <i class="fa fa-plus success"></i>
-                                <span class="success">Why Choose Us</span>
+                                <span class="success">Pourquoi choisser nous ?</span>
                             </button>
                         </h5>
                     </div>
@@ -353,7 +356,7 @@ Home
 <div class="container">
     <div class="row text-center">
         <div class="col-12 my-3">
-            <h3 class="border-danger "><span class="heading_border bg-danger">Our Team</span></h3>
+            <h3 class="border-danger "><span class="heading_border bg-danger">Notre équipe</span></h3>
         </div>
     </div>
     <div class="row text-center">
@@ -362,8 +365,8 @@ Home
             <div class="thumbnail bg-white">
                 <img src="{{ asset('images/img_3.jpg') }}" alt="team-image" class="img-fluid">
                 <div class="caption">
-                    <b>John Doe</b>
-                    <p class="text-center"> Founder & Partner</p>
+                    <b>Salim Merabet</b>
+                    <p class="text-center"> Créateur & Partenaire</p>
                     <div class="divide">
                         <a href="#" class="divider">
                             <i class="livicon" data-name="facebook" data-size="22" data-loop="true" data-c="#3a5795"
@@ -390,8 +393,8 @@ Home
             <div class="thumbnail bg-white">
                 <img src="{{ asset('images/img_5.jpg') }}" alt="team-image">
                 <div class="caption">
-                    <b>Francina Steinberg</b>
-                    <p class="text-center"> CEO </p>
+                    <b> Mohamed Salim</b>
+                    <p class="text-center"> Gérant </p>
                     <div class="divide">
                         <a href="#" class="divider">
                             <i class="livicon" data-name="facebook" data-size="22" data-loop="true" data-c="#3a5795"
@@ -418,8 +421,8 @@ Home
             <div class="thumbnail bg-white">
                 <img src="{{ asset('images/img_4.jpg') }}" alt="team-image" class="img-fluid">
                 <div class="caption">
-                    <b>Audrey Sheldon</b>
-                    <p class="text-center"> Executive Manager </p>
+                    <b>Amine Sour</b>
+                    <p class="text-center"> CEO </p>
                     <div class="divide">
                         <a href="#" class="divider">
                             <i class="livicon" data-name="facebook" data-size="22" data-loop="true" data-c="#3a5795"
@@ -446,8 +449,8 @@ Home
             <div class="thumbnail bg-white">
                 <img src="{{ asset('images/img_6.jpg') }}" alt="team-image">
                 <div class="caption">
-                    <b>Sam Bellows</b>
-                    <p class="text-center"> Manager </p>
+                    <b>Youcef Bendimerad</b>
+                    <p class="text-center"> Chef cuisinier </p>
                     <div class="divide">
                         <a href="#" class="divider">
                             <i class="livicon" data-name="facebook" data-size="22" data-loop="true" data-c="#3a5795"
@@ -478,7 +481,7 @@ Home
         <div class="col-md-6 col-sm-6 col-lg-6 col-12 wow zoomInLeft" data-wow-duration="3s">
             <div class="text-left">
                 <div class="mt-2">
-                    <h4 class="border-warning"><span class="heading_border bg-warning">What We Are</span></h4>
+                    <h4 class="border-warning"><span class="heading_border bg-warning">Qui sommes nous ?</span></h4>
                 </div>
             </div>
             <img src="{{ asset('images/image_12.jpg') }}" alt="image_12" class="img-fluid">
@@ -490,7 +493,7 @@ Home
                 release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
                 software like Aldus PageMaker including versions of Lorem Ipsum.
             </p>
-            <p class="text-right primary my-2"><a href="#">Read more</a>
+            <p class="text-right primary my-2"><a href="#">Lire plus</a>
             </p>
         </div>
         <!-- //What we are End -->
@@ -498,7 +501,7 @@ Home
         <div class="col-md-6 col-sm-6 col-lg-6 col-12 wow zoomInRight" data-wow-duration="3s">
             <div class="text-left">
                 <div class="mt-2">
-                    <h4 class="border-success"><span class="heading_border bg-success">About Us</span></h4>
+                    <h4 class="border-success"><span class="heading_border bg-success">A propos de nous</span></h4>
                 </div>
             </div>
             <img src="{{ asset('images/image_11.jpg') }}" alt="image_11" class="img-fluid">
@@ -510,7 +513,7 @@ Home
                 release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
                 software like Aldus PageMaker including versions of Lorem Ipsum.
             </p>
-            <p class="text-right primary my-2"><a href="#">Read more</a>
+            <p class="text-right primary my-2"><a href="#">Lire plus</a>
         </div>
         <!-- //About Us End -->
     </div>
@@ -519,14 +522,14 @@ Home
     <div class="row">
         <!-- Testimonial Section -->
         <div class=" col-12 text-center mt-3">
-            <h3 class="border-primary"><span class="heading_border bg-primary">Testimonials</span></h3>
+            <h3 class="border-primary"><span class="heading_border bg-primary">Ils parlent de nous</span></h3>
         </div>
         <div class="col-md-4  col-lg-4 col-12 wow bounceInLeft" data-wow-duration="3s">
             <div class="author">
                 <img src="{{ asset('images/authors/avatar3.jpg') }}" alt="avatar3"
                     class="img-fluid rounded-circle float-left">
                 <p class="text-right">
-                    Tonny Jakson
+                    Sammy Kazi
                     <br>
                     <small class="text-right">Themeforest.net</small>
                 </p>
@@ -542,7 +545,7 @@ Home
                 <img src="{{ asset('images/authors/avatar2.jpg') }}" alt="avatar2"
                     class="img-fluid rounded-circle float-left">
                 <p class="text-right">
-                    Tonny Jakson
+                    Nihel Boukli
                     <br>
                     <small class="text-right">Themeforest.net</small>
                 </p>
@@ -558,7 +561,7 @@ Home
                 <img src="{{ asset('images/authors/avatar4.jpg') }}" alt="avatar4"
                     class="img-fluid rounded-circle float-left">
                 <p class="text-right">
-                    Tonny Jakson
+                    Imene Berber
                     <br>
                     <small class="text-right">Themeforest.net</small>
                 </p>
@@ -576,7 +579,7 @@ Home
     <div class="row features">
         <!--<div class="text-center">-->
         <div class=" col-12 text-center my-3">
-            <h3 class="border-warning"><span class="heading_border bg-warning">Features</span></h3>
+            <h3 class="border-warning"><span class="heading_border bg-warning">Fonctionnalités</span></h3>
         </div>
         <!--</div>-->
         <div class="col-md-4 col-sm-4 col-lg-4 col-12 wow fadeInUp" data-wow-duration="3s" data-wow-delay="0.5s">
@@ -657,7 +660,7 @@ Home
     <!-- Our Skills Start -->
 
     <div class=" col-12 text-center my-3 marbtm10">
-        <h3 class="border-danger"><span class="heading_border bg-danger">Our Skills</span></h3>
+        <h3 class="border-danger"><span class="heading_border bg-danger">Nos spécialités</span></h3>
     </div>
 </div>
 <!--</div>-->
@@ -667,43 +670,44 @@ Home
         <div class="row">
             <div class="col-md-3 col-sm-6 col-lg-3 col-12 text-center wow zoomIn" data-wow-duration="3.5s">
                 <div class="mx-auto">
-                    <div id="myStat3" class="mx-auto" data-startdegree="0" data-dimension="150" data-text="90%"
-                        data-width="4" data-fontsize="28" data-percent="90" data-fgcolor="#3abec0" data-bgcolor="#eee">
+                    <div id="myStat3" class="mx-auto" data-startdegree="0" data-dimension="150" data-text="100%"
+                        data-width="4" data-fontsize="28" data-percent="100" data-fgcolor="#3abec0" data-bgcolor="#eee">
                     </div>
-                    <h4 class="success"><strong>Bootstrap</strong></h4>
+                    <h4 class="success"><strong>Cuisine algérienne</strong></h4>
                 </div>
                 <p class="my-3">Lorem Ipsum is simply dummy text of the printing and type setting industry</p>
             </div>
             <div class="col-md-3 col-sm-6 col-lg-3 col-12 text-center wow zoomIn" data-wow-duration="3s"
                 data-wow-delay="0.8s">
                 <div class="mx-auto">
-                    <div id="myStat4" class="mx-auto" data-startdegree="0" data-dimension="150" data-text="60%"
-                        data-width="4" data-fontsize="28" data-percent="60" data-fgcolor="#3abec0" data-bgcolor="#eee">
+                    <div id="myStat4" class="mx-auto" data-startdegree="0" data-dimension="150" data-text="80%"
+                        data-width="4" data-fontsize="28" data-percent="80" data-fgcolor="#3abec0" data-bgcolor="#eee">
                     </div>
-                    <h4 class="success"><strong>Jquery</strong></h4>
-                </div>
-                <p class="my-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-            </div>
-            <div class="col-md-3 col-sm-6 col-lg-3 col-12 text-center wow zoomIn" data-wow-duration="3s"
-                data-wow-delay="1.2s">
-                <div class="mx-auto">
-                    <div id="myStat5" class="mx-auto" data-startdegree="0" data-dimension="150" data-text="100%"
-                        data-width="4" data-fontsize="28" data-percent="100" data-fgcolor="#3abec0" data-bgcolor="#eee">
-                    </div>
-                    <h4 class="success"><strong>Html 5</strong></h4>
+                    <h4 class="success"><strong>Cuisinie italienne</strong></h4>
                 </div>
                 <p class="my-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
             </div>
             <div class="col-md-3 col-sm-6 col-lg-3 col-12 text-center wow zoomIn" data-wow-duration="3s"
                 data-wow-delay="1.8s">
                 <div class="mx-auto">
-                    <div id="myStat6" class="mx-auto" data-startdegree="0" data-dimension="150" data-text="70%"
-                        data-width="4" data-fontsize="28" data-percent="70" data-fgcolor="#3abec0" data-bgcolor="#eee">
+                    <div id="myStat6" class="mx-auto" data-startdegree="0" data-dimension="150" data-text="75%"
+                        data-width="4" data-fontsize="28" data-percent="75" data-fgcolor="#3abec0" data-bgcolor="#eee">
                     </div>
-                    <h4 class="success"><strong>Css 3</strong></h4>
+                    <h4 class="success"><strong>Cuisine  américaine</strong></h4>
                 </div>
                 <p class="my-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
             </div>
+            <div class="col-md-3 col-sm-6 col-lg-3 col-12 text-center wow zoomIn" data-wow-duration="3s"
+                data-wow-delay="1.2s">
+                <div class="mx-auto">
+                    <div id="myStat5" class="mx-auto" data-startdegree="0" data-dimension="150" data-text="60%"
+                        data-width="4" data-fontsize="28" data-percent="60" data-fgcolor="#3abec0" data-bgcolor="#eee">
+                    </div>
+                    <h4 class="success"><strong>Cuisine francaise</strong></h4>
+                </div>
+                <p class="my-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+            </div>
+            
         </div>
         <!-- Our skills Section End -->
     </div>

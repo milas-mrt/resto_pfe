@@ -23,7 +23,7 @@
     <hr class="content-header-sep">
     <div class="container">
         <div class="welcome">
-            <h3>My Account</h3>
+            <h3>Mon compte</h3>
         </div>
         <hr>
             <div class="row">
@@ -36,7 +36,7 @@
                         </div>
 
                         <div>
-                            <h3 class="text-primary" id="title">Personal Information</h3>
+                            <h3 class="text-primary" id="title"> Information personnelle</h3>
                         </div>
                         {!! Form::model($user, ['url' => URL::to('my-account'), 'method' => 'put', 'class' => 'form-horizontal','enctype'=>"multipart/form-data"]) !!}
 
@@ -66,11 +66,11 @@
                                         <div class="fileinput-preview fileinput-exists thumbnail" style="max-width: 200px; max-height: 150px;"></div>
                                         <div>
                                             <span class="btn btn-primary btn-file">
-                                                <span class="fileinput-new">Select image</span>
-                                                <span class="fileinput-exists">Change</span>
+                                                <span class="fileinput-new">Selectionner une image</span>
+                                                <span class="fileinput-exists">Changer</span>
                                                 <input type="file" name="pic" id="pic" />
                                             </span>
-                                            <span class="btn btn-primary fileinput-exists" data-dismiss="fileinput">Remove</span>
+                                            <span class="btn btn-primary fileinput-exists" data-dismiss="fileinput">Supprimmer</span>
                                         </div>
                                     </div>
                                     <span class="help-block">{{ $errors->first('pic', ':message') }}</span>
@@ -81,7 +81,7 @@
                                 <div class="row">
                                     <div class="col-lg-2 col-12">
                                 <label class="control-label">
-                                    First Name:
+                                    Prénom:
                                     <span class='require'>*</span>
                                 </label>
                                 </div>
@@ -103,7 +103,7 @@
                                 <div class="row">
                                     <div class="col-lg-2 col-12">
                                         <label class="control-label">
-                                            Last Name:
+                                             Nom:
                                             <span class='require'>*</span>
                                         </label>
                                     </div>
@@ -144,11 +144,11 @@
                             </div>
 
                             <div class="form-group {{ $errors->first('password', 'has-error') }}">
-                                <p class="text-warning col-md-offset-2"><strong>If you don't want to change password... please leave them empty</strong></p>
+                                <p class="text-warning col-md-offset-2"><strong>Si vous ne voulez pas cha,ger votre mot de passe; laissez cette case vide</strong></p>
                                     <div class="row">
                                         <div class="col-lg-2 col-12">
                                         <label class="control-label">
-                                            Password:
+                                            Mot de passe:
                                             <span class='require'>*</span>
                                         </label>
                                     </div>
@@ -167,7 +167,7 @@
                             <div class="form-group {{ $errors->first('password_confirm', 'has-error') }}">
                                 <div class="row">
                                 <label class="col-lg-2  col-12 control-label">
-                                    Confirm Password:
+                                    Confirmer Mot de passe:
                                     <span class='require'>*</span>
                                 </label>
                                     <div class="col-lg-10 col-12">
@@ -184,7 +184,7 @@
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col-lg-2 col-12">
-                                    <label class="control-label">Gender: </label>
+                                    <label class="control-label">Sexe: </label>
                                 </div>
                                     <div class="col-lg-10 col-12">
                                     <div class="radio">
@@ -232,7 +232,7 @@
 
                                     <div class="col-lg-2 col-12">
                                 <label class="control-label">
-                                    Address:
+                                    Adresse:
                                 </label>
                                </div>
                                     <div class="col-lg-10 col-12">
@@ -246,7 +246,7 @@
                             <div class="form-group {{ $errors->first('country', 'has-error') }}">
                                 <div class="row">
                                     <div class="col-lg-2 col-12">
-                                        <label class="control-label">Select Country: </label>
+                                        <label class="control-label">Selectionner votre Pays: </label>
                                     </div>
 
                                     <div class="col-lg-10 col-12">
@@ -259,7 +259,7 @@
                             <div class="form-group {{ $errors->first('user_state', 'has-error') }}">
                                 <div class="row">
                                     <div class="col-lg-2 col-12" >
-                                        <label class="control-label" for="state">State:</label>
+                                        <label class="control-label" for="state">Wilaya:</label>
                                     </div>
                                     <div class="col-lg-10 col-12 col-md-12 col-sm-12 ">
                                     <div class="input-group input-group-append">
@@ -277,7 +277,7 @@
                             <div class="form-group {{ $errors->first('city', 'has-error') }}">
                                 <div class="row">
                                     <div class="col-lg-2 col-12">
-                                        <label class=control-label" for="city">City:</label>
+                                        <label class=control-label" for="city">Ville:</label>
                                     </div>
                                     <div class="col-lg-10 col-12">
                                     <div class="input-group input-group-append">
@@ -294,7 +294,7 @@
                             <div class="form-group {{ $errors->first('postal', 'has-error') }}">
                                 <div class="row">
                                     <div class="col-lg-2 col-12">
-                                        <label class=" control-label" for="postal">Postal:</label>
+                                        <label class=" control-label" for="postal">Adresse Postale:</label>
                                     </div>
 
                                     <div class="col-lg-10 col-12">
@@ -314,7 +314,7 @@
                             <div class="form-group {{ $errors->first('dob', 'has-error') }}">
                                 <div class="row">
                                     <div class="col-lg-2 col-12">
-                                        <label class= "control-label">   DOB:
+                                        <label class= "control-label">   Date de naissance:
                                         </label>
                                     </div>
                                     <div class="col-lg-10 col-12">
@@ -335,7 +335,7 @@
 
                             <div class="form-group">
                                 <div class="col-lg-10 col-12 ml-auto">
-                                    <button class="btn btn-primary" type="submit">Save</button>
+                                    <button class="btn btn-primary" type="submit">Sauvegrader</button>
                                 </div>
                             </div>
 

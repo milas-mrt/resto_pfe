@@ -30,9 +30,9 @@ Accordian Form Wizard
                         </a>
                     </li>
                     <li>
-                        <a href="#">Forms</a>
+                        <a href="#">Formulaire</a>
                     </li>
-                    <li class="active">Accordion Wizards</li>
+                    <li class="active">Accordéon </li>
                 </ol>
             </section>
             <!--section ends-->
@@ -54,7 +54,7 @@ Accordian Form Wizard
                 <div class="row acc-wizard">
                     <div class="col-md-3 pd-2">
                         <p class="mar-2">
-                            Follow the steps below to add an accordion wizard to your web page.
+                            Suivez ces étapes ci-*dessous pour ajouter un accordéon.
                         </p>
                         <ol class="acc-wizard-sidebar">
                             <li class="acc-wizard-todo acc-wizard-active">

@@ -28,7 +28,7 @@
                 <div class="box1">
                     <div class="text-center">
                         <img src="{{ asset('images/josh-new.png') }}" alt="logo" class="img-fluid mar"></div>
-                    <h3 class="text-primary">Log In</h3>
+                    <h3 class="text-primary">Se connecter</h3>
                     <!-- Notifications -->
                     <div id="notific">
                         @include('notifications')
@@ -48,29 +48,29 @@
                         <span class="help-block">{{ $errors->first('password', ':message') }}</span>
                         <div class="checkbox">
                             <label>
-                                <input type="checkbox"> Remember Password
+                                <input type="checkbox"> Rappeler du mot de passe
                             </label>
 
                         </div>
                         <input type="submit" class="btn btn-block btn-primary" value="Log In">
-                        Don't have an account? <a href="{{ route('register') }}"><strong> Sign Up</strong></a>
+                        vous n'avez pas de compte ? <a href="{{ route('register') }}"><strong> s'inscrire</strong></a>
                     </form>
                     <br />
                     <div class="row">
                         <div class="col-lg-12 text-center social_login mb-3">
                             <a class="btn btn-block btn-social btn-facebook social" href="{{ url('/facebook') }}">
-                                <i class="fab fa-facebook-f"></i> Sign in with Facebook
+                                <i class="fab fa-facebook-f"></i> S'inscrire via Facebook
                             </a>
                             <a class="btn btn-block btn-social btn-google social" href="{{ url('/google') }}">
-                                <i class="fab fa-google-plus-g"></i> Sign in with Google
+                                <i class="fab fa-google-plus-g"></i> S'inscrire via Google
                             </a>
                             <a class="btn btn-block btn-social btn-linkedin social" href="{{ url('/linkedin') }}">
-                                <i class="fab fa-linkedin-in"></i> Sign in with LinkedIn
+                                <i class="fab fa-linkedin-in"></i> S'inscrire via LinkedIn
                             </a>
                         </div>
                     </div>
                     <div class="bg-transparent animation flipInX">
-                        <a href="{{ route('forgot-password') }}">Forgot Password?</a>
+                        <a href="{{ route('forgot-password') }}"> Mot de passe oublié?</a>
                     </div>
                 </div>
 

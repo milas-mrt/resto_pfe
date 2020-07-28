@@ -27,12 +27,12 @@ Compare Products
                     <li class="d-none d-sm-block">
                         <i class="livicon icon3" data-name="angle-double-right" data-size="18" data-loop="true"
                             data-c="#01bc8c" data-hc="#01bc8c"></i>
-                        <a href="#">Compare Product</a>
+                        <a href="#">Comparer les Produits</a>
                     </li>
                 </ol>
                 <div class="float-right mt-1">
                     <i class="livicon icon3" data-name="edit" data-size="20" data-loop="true" data-c="#3d3d3d"
-                        data-hc="#3d3d3d"></i> Compare Product
+                        data-hc="#3d3d3d"></i> Comparer les Produits
                 </div>
             </div>
         </div>
@@ -46,7 +46,7 @@ Compare Products
 <!-- Container Section Start -->
 <div class="container my-3">
     <!--Content Section Start -->
-    <h3 class="text-primary mb-3">Compare Products</h3>
+    <h3 class="text-primary mb-3">Comparer les Produits</h3>
     <div class="row">
         <div class="col-sm-12">
             <div class="table-responsive">
@@ -54,7 +54,7 @@ Compare Products
                     <thead>
                         <tr class="bg-light">
                             <th>
-                                <h4>Name</h4>
+                                <h4>nom</h4>
                             </th>
                             <th>
                                 <h4>Curabitur pharetra faucibus congue</h4>
@@ -84,7 +84,7 @@ Compare Products
                         <!-- //image section end -->
                         <!-- price section start -->
                         <tr>
-                            <td style="vertical-align: middle;">Price</td>
+                            <td style="vertical-align: middle;">Prix</td>
                             <td>
                                 <del class="text-danger">$1150</del>
                                 <br /> Now Only $1000</td>
@@ -98,7 +98,7 @@ Compare Products
                         <!-- //price section end -->
                         <!-- model section start -->
                         <tr>
-                            <td style="vertical-align: middle;">Model</td>
+                            <td style="vertical-align: middle;">Modèlz</td>
                             <td>Class aptent taciti sociosqu ad litora torquent per conubia nostra</td>
                             <td>Cras ullamcorper nisl non odio congue accumsan</td>
                             <td>Class aptent taciti sociosqu ad litora torquent per conubia nostra</td>
@@ -106,7 +106,7 @@ Compare Products
                         <!-- //model section end -->
                         <!-- brand section start -->
                         <tr>
-                            <td style="vertical-align: middle;">Brand</td>
+                            <td style="vertical-align: middle;">Marque</td>
                             <td>One</td>
                             <td>Two</td>
                             <td>Three</td>
@@ -114,15 +114,15 @@ Compare Products
                         <!-- //brand section start -->
                         <!-- Availbility section start -->
                         <tr>
-                            <td style="vertical-align: middle;">Availbility</td>
-                            <td>In Stock</td>
-                            <td>In Stock</td>
-                            <td>In Stock</td>
+                            <td style="vertical-align: middle;">Disponibilité</td>
+                            <td>dans le Stock</td>
+                            <td>dans le Stock</td>
+                            <td>dans leStock</td>
                         </tr>
                         <!-- //Availbility section end -->
                         <!-- rating section start -->
                         <tr>
-                            <td style="vertical-align: middle;">Rating</td>
+                            <td style="vertical-align: middle;">Evaluation</td>
                             <td>
                                 <i class="fa fa-star text-primary"></i>
                                 <i class="fa fa-star text-primary"></i>
@@ -187,9 +187,9 @@ Compare Products
                         <!-- add cart section start -->
                         <tr>
                             <td></td>
-                            <td><span class="btn btn-primary"><a href="#" class="text-white">Add to Cart</a></span></td>
-                            <td><span class="btn btn-primary"><a href="#" class="text-white">Add to Cart</a></span></td>
-                            <td><span class="btn btn-primary"><a href="#" class="text-white">Add to Cart</a></span></td>
+                            <td><span class="btn btn-primary"><a href="#" class="text-white">Ajouter au panier</a></span></td>
+                            <td><span class="btn btn-primary"><a href="#" class="text-white">Ajouter au panier</a></span></td>
+                            <td><span class="btn btn-primary"><a href="#" class="text-white">Ajouter au panier</a></span></td>
                         </tr>
                         <!-- //add cart section end -->
                     </tbody>

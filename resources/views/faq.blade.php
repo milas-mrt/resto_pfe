@@ -431,6 +431,7 @@ FAQ
         </div>
     </div>
 </div>
+
 @stop
 
 {{-- page level scripts --}}

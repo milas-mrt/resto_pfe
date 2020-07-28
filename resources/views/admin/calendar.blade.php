@@ -20,7 +20,7 @@
 @section('content')
 
     <section class="content-header">
-        <h1>Calendar</h1>
+        <h1>Calendrier</h1>
         <ol class="breadcrumb">
             <li>
                 <a href="{{ route('admin.dashboard') }}">
@@ -28,7 +28,7 @@
                     Dashboard
                 </a>
             </li>
-            <li>Calendar</li>
+            <li>Calendrier</li>
         </ol>
     </section>
     <!-- Main content -->
@@ -37,7 +37,7 @@
             <div class="col-md-3 col-lg-3 col-12">
                 <div class="box">
                     <div class="box-title">
-                        <h3 class="my-2">Draggable Events</h3>
+                        <h3 class="my-2">Evènements</h3>
                         <div class="float-right box-toolbar">
                             <a href="#" class="btn btn-link btn-xs" data-toggle="modal" data-target="#myModal">
                                 <i class="fa fa-plus"></i>
@@ -46,26 +46,26 @@
                     </div>
                     <div class="box-body">
                         <div id='external-events'>
-                            <div class='external-event palette-warning fc-event'>Team Out <i
+                            <div class='external-event palette-warning fc-event'>Réunion des employés <i
                                         class="fa fa-times event-clear" aria-hidden="true"></i></div>
-                            <div class='external-event palette-primary fc-event'>Product Seminar <i
+                            <div class='external-event palette-primary fc-event'>Fete 8 mars <i
                                         class="fa fa-times event-clear" aria-hidden="true"></i></div>
-                            <div class='external-event palette-danger fc-event'>Client Meeting <i
+                            <div class='external-event palette-danger fc-event'>Fete spéciale <i
                                         class="fa fa-times event-clear" aria-hidden="true"></i></div>
-                            <div class='external-event palette-info fc-event'>Repeating Event <i
-                                        class="fa fa-times event-clear" aria-hidden="true"></i></div>
-                            <div class='external-event palette-success fc-event'>Anniversary Celebrations <i
+                            <!--<div class='external-event palette-info fc-event'>Repeating Event <i
+                                        class="fa fa-times event-clear" aria-hidden="true"></i></div>-->
+                            <div class='external-event palette-success fc-event'> Célébration anniverssaire <i
                                         class="fa fa-times event-clear" aria-hidden="true"></i></div>
                             <p class="well no-border no-radius">
                                 <input type='checkbox' class="custom-checkbox" id='drop-remove'
                                        style="opacity:1 !important"/>
-                                <label for='drop-remove'>remove after drop</label>
+                                <label for='drop-remove'>Supprimmer après l'ajout</label>
                             </p>
                         </div>
                     </div>
                     <div class="box-footer">
                         <a href="#" class="btn btn-success btn-block createevent_btn" data-toggle="modal"
-                           data-target="#myModal">Create event</a>
+                           data-target="#myModal">Créer un évenement</a>
                     </div>
                 </div>
                 <!-- /.box -->
@@ -80,19 +80,19 @@
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <button type="button" class="close" data-dismiss="modal"><span
-                                                    aria-hidden="true">×</span> <span class="sr-only">close</span>
+                                                    aria-hidden="true">×</span> <span class="sr-only">Fermer</span>
                                         </button>
                                         <h4 id="modalTitle" class="modal-title"></h4>
                                     </div>
                                     <div id="modalBody" class="modal-body">
-                                        <i class="mdi-action-alarm-on"></i>&nbsp;&nbsp;Start: <span
-                                                id="startTime"></span>&nbsp;&nbsp;- End: <span id="endTime"></span>
+                                        <i class="mdi-action-alarm-on"></i>&nbsp;&nbsp;Début: <span
+                                                id="startTime"></span>&nbsp;&nbsp;- Fin: <span id="endTime"></span>
                                         <h4 id="eventInfo"></h4>
                                         <br>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-raised btn-danger" data-dismiss="modal">
-                                            Close
+                                            Fermer
                                         </button>
                                     </div>
                                 </div>
@@ -111,7 +111,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h4 class="modal-title" id="myModalLabel">
-                            <i class="fa fa-plus"></i> Create Event
+                            <i class="fa fa-plus"></i> Créer un evenement
                         </h4>
                         <button type="button" class="close reset" data-dismiss="modal" aria-hidden="true">&times;
                         </button>
@@ -152,10 +152,10 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-success mr-auto" id="add-new-event" data-dismiss="modal">
-                            <i class="fa fa-plus"></i> Add
+                            <i class="fa fa-plus"></i> Ajouter
                         </button>
                         <button type="button" class="btn btn-danger float-right reset" data-dismiss="modal">
-                            Close
+                            Fermer
                             <i class="fa fa-times"></i>
                         </button>
                     </div>
@@ -168,7 +168,7 @@
                     <div class="modal-header">
                         <h4 class="modal-title" id="myModalLabel">
                             <i class="fa fa-plus"></i>
-                            Edit Event
+                            Modifier un evenement
                         </h4>
 
                         <button type="button" class="close reset" data-dismiss="modal" aria-hidden="true">&times;
@@ -209,10 +209,10 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-success  mr-auto text_save" data-dismiss="modal">
-                            Update
+                            Mettre à jour
                         </button>
                         <button type="button" class="btn btn-danger float-right" data-dismiss="modal">
-                            Close
+                            Fermer
                             <i class="fa fa-times"></i>
                         </button>
 

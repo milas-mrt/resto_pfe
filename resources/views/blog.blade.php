@@ -87,8 +87,7 @@ Blog
                     </p>
                     <hr>
                     <p class="text-right">
-                        <a href="{{ URL::to('blogitem/'.$blog->slug) }}" class="btn btn-primary text-white">Read
-                            more</a>
+                        <a href="{{ URL::to('blogitem/'.$blog->slug) }}" class="btn btn-primary text-white">Lire</a>
                     </p>
                 </div>
                 <!-- /.featured-text -->
@@ -96,7 +95,7 @@ Blog
             <!-- /.featured-post-wide -->
             <!-- END FEATURED POST -->
             @empty
-            <h3>No Posts Exists!</h3>
+            <h3>Aucun Post Existant !!</h3>
             @endforelse
             <ul class="pager">
                 {!! $blogs->render() !!}
@@ -114,11 +113,11 @@ Blog
                     <ul class="nav nav-tabs ">
                         <li class=" nav-item">
                             <a href="#tab_default_1" data-toggle="tab" class="nav-link active">
-                                Popular Posts </a>
+                                 Posts Populaires </a>
                         </li>
                         <li class="nav-item">
                             <a href="#tab_default_2" data-toggle="tab" class="nav-link">
-                                Recent Posts </a>
+                                 Posts Récents </a>
                         </li>
                     </ul>
                     <hr class="horizontalline">
@@ -140,7 +139,7 @@ Blog
                                 turbulent clouds dispassionate extraterrestrial observer hearts of the stars.
                                 Jean-François Champollion Euclid the sky.
                             </p>
-                            <div class="text-right primary mb-1"><a href="#">Read more</a>
+                            <div class="text-right primary mb-1"><a href="#">Lire plus</a>
                             </div>
                             <div class="media">
                                 <div class="media-left tab col-sm-6 col-md-12 col-xs-12">
@@ -190,7 +189,7 @@ Blog
                                 dentevil vultus comedat cerebella viventium. Qui animated corpse, cricket bat max
                                 brucks terribilem incessu zomby.
                             </p>
-                            <div class="text-right primary"><a href="#">Read more</a>
+                            <div class="text-right primary"><a href="#">lire plus</a>
                             </div>
                         </div>
                     </div>
@@ -200,7 +199,7 @@ Blog
             </div>
             <!-- Tabbable_panel End -->
             <div class="recent p-3 border radius mb-3">
-                <h3 class="small-heading text-center">Recent Comments</h3>
+                <h3 class="small-heading text-center"> Commentaires Récents</h3>
 
                 <div class="media">
                     <a class="float-left" href="#">
@@ -212,7 +211,7 @@ Blog
                             <a href="#">Elizabeth Owens at Duis autem vel eum iriure dolor in hendrerit in</a>
                         </h4>
                         <p class="date">
-                            <small class="text-danger">2hours ago</small>
+                            <small class="text-danger">il y a 2 heures</small>
                         </p>
                         <p class="small">
                             Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
@@ -231,7 +230,7 @@ Blog
                             <a href="#">Harold Chavez at Duis autem vel eum iriure dolor in hendrerit in</a>
                         </h4>
                         <p class="date">
-                            <small class="text-danger">5hours ago</small>
+                            <small class="text-danger">il y a 5 heures </small>
                         </p>
                         <p class="small">
                             Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
@@ -250,7 +249,7 @@ Blog
                             <a href="#">Mihaela Cihac at Duis autem vel eum iriure dolor in hendrerit in</a>
                         </h4>
                         <p class="date">
-                            <small class="text-danger">10hours ago</small>
+                            <small class="text-danger">il y a 10 heures</small>
                         </p>
                         <p class="small">
                             Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante

@@ -32,12 +32,12 @@ About us
                     <li class="d-none d-sm-block">
                         <i class="livicon icon3" data-name="angle-double-right" data-size="18" data-loop="true"
                             data-c="#01bc8c" data-hc="#01bc8c"></i>
-                        <a href="#">About Us</a>
+                        <a href="#">A propos</a>
                     </li>
                 </ol>
                 <div class="float-right mt-1">
                     <i class="livicon icon3" data-name="users" data-size="20" data-loop="true" data-c="#3d3d3d"
-                        data-hc="#3d3d3d"></i> About Us
+                        data-hc="#3d3d3d"></i> A propos
                 </div>
             </div>
         </div>
@@ -55,7 +55,7 @@ About us
     <div class="row my-3">
         <!-- Left Heading Section Start -->
         <div class="col-md-7 col-sm-12  col-md-12 col-lg-8 wow bounceInLeft" data-wow-duration="5s">
-            <h2><label>Welcome to Josh</label></h2>
+            <h2><label>Bienvenue sur notre site</label></h2>
             <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
@@ -238,7 +238,7 @@ About us
     <!-- // Services Section End -->
     <!-- Our Team Section Start -->
     <div class="text-center my-3">
-        <h3 class="border-danger"><span class="heading_border bg-danger">Our Team</span></h3>
+        <h3 class="border-danger"><span class="heading_border bg-danger">Notre équipe</span></h3>
     </div>
     <div class="row">
         <!-- Our Team Heading Start -->
@@ -248,8 +248,8 @@ About us
             <div class="thumbnail bg-white  text-center">
                 <img src="{{ asset('images/img_3.jpg') }}" alt="team-image" class="img-fluid">
                 <div class="caption">
-                    <b>John Doe</b>
-                    <br /> Founder &amp; Partner
+                    <b>Salim Merabet</b>
+                    <br /> Créateur &amp; Partenaire
                     <br />
                     <div class="divide">
                         <a href="#" class="divider"> <i class="livicon" data-name="facebook" data-size="22"
@@ -274,7 +274,7 @@ About us
             <div class="thumbnail bg-white text-center">
                 <img src="{{ asset('images/img_5.jpg') }}" alt="team-image" class="img-fluid">
                 <div class="caption">
-                    <b>Francina Steinberg</b>
+                    <b>Amine Sour</b>
                     <br /> CEO
                     <br />
                     <div class="divide">
@@ -301,8 +301,8 @@ About us
             <div class="thumbnail bg-white  text-center">
                 <img src="{{ asset('images/img_4.jpg') }}" alt="team-image" class="img-fluid">
                 <div class="caption">
-                    <b>Audrey Sheldon</b>
-                    <br /> Executive Manager
+                    <b>Mohamed Salim</b>
+                    <br /> Chef cuisinier 
                     <br />
                     <div class="divide">
                         <a href="#" class="divider"> <i class="livicon" data-name="facebook" data-size="22"
@@ -327,8 +327,8 @@ About us
             <div class="thumbnail bg-white text-center">
                 <img src="{{ asset('images/img_6.jpg') }}" alt="team-image" class="img-fluid">
                 <div class="caption">
-                    <b>Sam Bellows</b>
-                    <br /> Manager
+                    <b>Youcef Bendimerad</b>
+                    <br /> Gérant
                     <br />
                     <div class="divide">
                         <a href="#" class="divider"> <i class="livicon" data-name="facebook" data-size="22"

@@ -16,7 +16,7 @@ Users List
 {{-- Page content --}}
 @section('content')
 <section class="content-header">
-    <h1>Users</h1>
+    <h1>Utilisateurs</h1>
     <ol class="breadcrumb">
         <li>
             <a href="{{ route('admin.dashboard') }}">
@@ -24,8 +24,8 @@ Users List
                 Dashboard
             </a>
         </li>
-        <li><a href="#"> Users</a></li>
-        <li class="active">Users List</li>
+        <li><a href="#"> Utilisateurs</a></li>
+        <li class="active">Liste des utilisateurs</li>
     </ol>
 </section>
 
@@ -36,7 +36,7 @@ Users List
         <div class="card ">
             <div class="card-header bg-primary text-white">
                 <h4 class="card-title my-2 float-left"> <i class="livicon" data-name="user" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i>
-                    Users List
+                    Liste des utilisateurs
                 </h4>
                  <a href="{{ URL('admin/bulk_import_users') }}" class="float-right btn btn-success import_btn">
                                 <i class="fa fa-plus fa-fw"></i>Bulk Import</a>
@@ -47,11 +47,11 @@ Users List
                     <thead>
                         <tr class="filters">
                             <th>ID</th>
-                            <th>First Name</th>
-                            <th>Last Name</th>
-                            <th>User E-mail</th>
-                            <th>Status</th>
-                            <th>Created At</th>
+                            <th>Prénom</th>
+                            <th> Nom</th>
+                            <th> E-mail</th>
+                            <th>Etat</th>
+                            <th>Créé</th>
                             <th>Actions</th>
                         </tr>
                     </thead>

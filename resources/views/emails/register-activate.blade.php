@@ -3,25 +3,25 @@
     {{-- Header --}}
     @slot('header')
         @component('mail::header', ['url' => config('app.url')])
-            Josh Admin
+            Resto Admin
         @endcomponent
     @endslot
 
     {{-- Body --}}
-# Hello  {!! $user['user_name'] !!},<br>
+# Bonjour  {!! $user['user_name'] !!},<br>
 
-Welcome to SiteNameHere! Please click on the following link to confirm your SiteNameHere account:<br />
+Bienvenue!Merci de cliquer sur le boutton ci-dessous pour activer votre compte :<br />
 @component('mail::button', ['url' =>  $user['activationUrl']  ])
-    Activate Account
+    Activer le compte
 @endcomponent
 
 
-    Thanks,
+    Merci,
 
     {{-- Footer --}}
     @slot('footer')
     @component('mail::footer')
-    &copy; 2018 All Copy right received
+    &copy; 2020 All Copy right received
 @endcomponent
 @endslot
 @endcomponent

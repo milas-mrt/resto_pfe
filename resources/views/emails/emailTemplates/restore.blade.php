@@ -22,7 +22,7 @@
                                 <tr height="50"></tr>
                                 <tr>
                                     <td style="color:#141d23;font-family: 'Montserrat',Arial, sans-serif;font-size:26px;font-weight:600;letter-spacing:1px;line-height:30px;" data-bgcolor="Title" data-color="Title" data-size="Title" data-min="12" data-max="60" align="center">
-                                        Hello!!
+                                        Bonjour!!
                                     </td>
                                 </tr>
 
@@ -38,7 +38,7 @@
 
                                 <tr>
                                     <td style="color:#141d23;font-family: 'Montserrat',Arial, sans-serif;font-size:18px;padding-right:30px;padding-left:30px;font-weight:500;letter-spacing:1px;line-height:30px;" data-bgcolor="Title" data-color="Title" data-size="Title" data-min="12" data-max="60" align="center">
-                                        Welcome to Josh Admin! Please click on the Below button to restore your Josh account
+                                        Binvenue! Merci de cliquer sur le boutton ci-dessous pour récupérer votre compte.
                                     </td>
                                 </tr>
                                 <tr>
@@ -63,7 +63,7 @@
                                                                     <tbody>
                                                                     <tr>
                                                                         <td align="center" width="200" valign="middle" style="border-collapse:collapse!important;border-radius:35px;padding:20px 25px" bgcolor="#6791de">
-                                                                            <a href="{!! $user['activationUrl'] !!}" style="color:#fff!important;text-decoration:none;display:block;font-size:23px;font-style:italic" target="_blank" >Restore Account</a>
+                                                                            <a href="{!! $user['activationUrl'] !!}" style="color:#fff!important;text-decoration:none;display:block;font-size:23px;font-style:italic" target="_blank" >Récupérer le compte</a>
                                                                         </td>
                                                                     </tr>
                                                                     </tbody>
@@ -114,7 +114,7 @@
                                 <tr>
                                     <td align="center" data-link-style="text-decoration:none; color:#a2a9af;" data-link-color="Content" data-size="Content" data-color="Content" style="font-family: 'Open Sans', Arial, sans-serif; font-size:15px; color:#a2a9af; line-height:30px;">
                                         <singleline>
-                                            © 2018. Designed by <a href="https://themeforest.net/user/jyostna" style="font-family: 'Open Sans', Arial, sans-serif; font-size:15px; color:#fec400 ;" data-color="copy right color">Jyostna</a>
+                                            © 2020. Designed by <a href="https://themeforest.net/user/jyostna" style="font-family: 'Open Sans', Arial, sans-serif; font-size:15px; color:#fec400 ;" data-color="copy right color">Milas</a>
                                         </singleline>
                                     </td>
                                 </tr>

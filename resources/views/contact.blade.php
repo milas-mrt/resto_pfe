@@ -54,7 +54,7 @@ Contact
     <div class="row">
         <!-- Contact form Section Start -->
         <div class="col-md-6 col-lg-6 col-12 my-3">
-            <h2>Contact Form</h2>
+            <h2>Formulaire de Contact </h2>
             <!-- Notifications -->
             <div id="notific">
                 @include('notifications')
@@ -62,27 +62,27 @@ Contact
             <form class="contact" id="contact" action="{{route('contact')}}" method="POST">
                 <input type="hidden" name="_token" value="{{ csrf_token() }}" />
                 <div class="form-group">
-                    <input type="text" name="contact-name" class="form-control input-lg" placeholder="Your name"
+                    <input type="text" name="contact-name" class="form-control input-lg" placeholder="Votre nom"
                         required>
                 </div>
                 <div class="form-group">
                     <input type="email" name="contact-email" class="form-control input-lg"
-                        placeholder="Your email address" required>
+                        placeholder="Votre adresse mail " required>
                 </div>
                 <div class="form-group">
-                    <textarea name="contact-msg" class="form-control input-lg" rows="6" placeholder="Your comment"
+                    <textarea name="contact-msg" class="form-control input-lg" rows="6" placeholder="Votre commentaire"
                         required></textarea>
                 </div>
                 <div class="input-group">
-                    <button class="btn btn-primary mr-1" type="submit">submit</button>
-                    <button class="btn btn-danger" type="reset">Reset</button>
+                    <button class="btn btn-primary mr-1" type="submit">Soumettre</button>
+                    <button class="btn btn-danger" type="reset">Réinitialiser</button>
                 </div>
             </form>
         </div>
         <!-- //Conatc Form Section End -->
         <!-- Address Section Start -->
         <div class="col-md-6 col-sm-6 my-3">
-            <h2>Address</h2>
+            <h2>Adresse</h2>
             <div class="media media-top">
                 <a href="#">
                     <div class="box-icon">
@@ -108,9 +108,9 @@ Contact
                     </div>
                 </a>
                 <div class="media-body ml-3">
-                    <strong>Telephone:</strong>
-                    <br>(703) 717-4200
-                    <br /> Fax:400 423 1456
+                    <strong>Téléphone:</strong>
+                    <br>(07) 9042-4548
+                    <br /> Fax:(043)421 613
                 </div>
             </div>
         </div>
@@ -130,13 +130,13 @@ Contact
     $(document).ready(function() {
             var map = new GMaps({
                 el: '#map',
-                lat: 38.8921021,
-                lng: -77.0260358
+                lat: 34.8783300,
+                lng: -1.3150000
             });
             map.addMarker({
-                lat: 38.8921021,
-                lng: -77.0260358,
-                title: 'Washington'
+                lat: 34.8783300,
+                lng: -1.3150000,
+                title: 'Tlemcen'
             });
         });
 </script>

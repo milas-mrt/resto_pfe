@@ -77,16 +77,16 @@ Advanced Features
                     <li class="d-none d-lg-block d-sm-block d-md-block">
                         <i class="livicon icon3" data-name="angle-double-right" data-size="18" data-loop="true"
                             data-c="#01bc8c" data-hc="#01bc8c"></i>
-                        <a href="#">Advanced Features</a>
+                        <a href="#">Fontionnalités avancées</a>
                     </li>
                 </ol>
                 <div class="float-right d-none d-lg-block d-sm-block d-md-block mt-1">
                     <i class="livicon icon3" data-name="rocket" data-size="20" data-loop="true" data-c="#3d3d3d"
-                        data-hc="#3d3d3d"></i>Advanced Features
+                        data-hc="#3d3d3d"></i>Fontionnalités avancées
                 </div>
                 <div class="float-right  d-lg-none d-sm-none d-md-none mt-1">
                     <i class="livicon icon3" data-name="rocket" data-size="20" data-loop="true" data-c="#3d3d3d"
-                        data-hc="#3d3d3d"></i>Adv. Features
+                        data-hc="#3d3d3d"></i>Fontionnalités avancées
                 </div>
             </div>
         </div>
@@ -103,13 +103,13 @@ Advanced Features
     <div class="row advanced">
         <!-- Button Section Start -->
         <div class="col-md-6 col-lg-6 col-sm-6 col-12">
-            <h3>Buttons</h3>
-            <button type="button" class="btn button-alignment btn-secondary" data-toggle="button">Submit</button>
-            <button type="button" class="btn button-alignment btn-success" data-toggle="button">Submit</button>
-            <button type="button" class="btn button-alignment btn-primary" data-toggle="button">Submit</button>
+            <h3>Bouttons</h3>
+            <button type="button" class="btn button-alignment btn-secondary" data-toggle="button">soumettre</button>
+            <button type="button" class="btn button-alignment btn-success" data-toggle="button">soumettre</button>
+            <button type="button" class="btn button-alignment btn-primary" data-toggle="button">soumettre</button>
             <button type="button" class="btn button-alignment btn-warning text-white"
                 data-toggle="button">Submit</button>
-            <button type="button" class="btn button-alignment btn-danger" data-toggle="button">Submit</button>
+            <button type="button" class="btn button-alignment btn-danger" data-toggle="button">soumettre</button>
         </div>
         <!-- //Button Section End -->
         <!-- Switch Section Start -->
@@ -133,11 +133,11 @@ Advanced Features
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
-                            aria-controls="profile" aria-selected="false">Profile</a>
+                            aria-controls="profile" aria-selected="false">Profil</a>
                     </li>
                     <li class="">
                         <a class="nav-link disabled" id="contact-tab" data-toggle="tab" href="#" role="tab"
-                            aria-controls="contact" aria-selected="false" style="cursor:not-allowed;">Disabled</a>
+                            aria-controls="contact" aria-selected="false" style="cursor:not-allowed;">Désactivé</a>
                     </li>
                 </ul>
                 <div class="tab-content" id="myTabContent">

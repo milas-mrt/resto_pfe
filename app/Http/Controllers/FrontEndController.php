@@ -176,7 +176,7 @@ class FrontEndController extends JoshController
             $user = Sentinel::register($request->only(['first_name', 'last_name', 'email', 'password', 'gender']), $activate);
             //add user to 'User' role
             $role = Sentinel::findRoleByName('User');
-            $role->users()->attach($user);
+            $role->user()->attach($user);
             //if you set $activate=false above then user will receive an activation mail
             if (!$activate) {
                 // Data to be used on the email view

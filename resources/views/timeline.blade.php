@@ -27,12 +27,12 @@ Timeline
                     <li class="d-none d-sm-block ">
                         <i class="livicon icon3" data-name="angle-double-right" data-size="18" data-loop="true"
                             data-c="#01bc8c" data-hc="#01bc8c"></i>
-                        <a href="#">Timeline</a>
+                        <a href="#">Chronologie</a>
                     </li>
                 </ol>
                 <div class="float-right mt-1">
                     <i class="livicon icon3" data-name="clock" data-size="20" data-loop="true" data-c="#3d3d3d"
-                        data-hc="#3d3d3d"></i> Timeline
+                        data-hc="#3d3d3d"></i> Chronologie
                 </div>
             </div>
         </div>
@@ -55,11 +55,10 @@ Timeline
                     <div class="direction-r wow slideInRight" data-wow-duration="1s">
                         <div class="flag-wrapper">
                             <span class="hexa"></span>
-                            <span class="flag">Lorem ipsum.</span>
-                            <span class="time-wrapper"><span class="time">Feb 2016</span></span>
+                            <span class="flag">10 clients inscrits</span>
+                            <span class="time-wrapper"><span class="time">15 Aout 2020</span></span>
                         </div>
-                        <div class="desc">Lorem ipsum Nisi labore aute do aute culpa magna nulla voluptate exercitation
-                            deserunt proident.</div>
+                        <div class="desc">Notre communauté se grandit jour après jour, merci à vous</div>
                     </div>
                 </li>
 
@@ -68,11 +67,10 @@ Timeline
                     <div class="direction-l wow slideInLeft" data-wow-duration="1s">
                         <div class="flag-wrapper">
                             <span class="hexa"></span>
-                            <span class="flag">Lorem ipsum Anim.</span>
-                            <span class="time-wrapper"><span class="time">Dec 2015</span></span>
+                            <span class="flag"> Réception du primier ministre.</span>
+                            <span class="time-wrapper"><span class="time">11 Aout 2020</span></span>
                         </div>
-                        <div class="desc">Lorem ipsum In ut sit in dolor nisi ex magna eu anim anim tempor dolore
-                            aliquip enim cupidatat laborum dolore.</div>
+                        <div class="desc">C'était un jour pas comme les autres, le premier ministre nous en a rendu une visite </div>
                     </div>
                 </li>
 
@@ -81,11 +79,10 @@ Timeline
                     <div class="direction-r wow slideInRight" data-wow-duration="1s">
                         <div class="flag-wrapper">
                             <span class="hexa"></span>
-                            <span class="flag">Lorem Occaecat.</span>
-                            <span class="time-wrapper"><span class="time">Aug 2015</span></span>
+                            <span class="flag">Première livraison.</span>
+                            <span class="time-wrapper"><span class="time">06 Aout 2020</span></span>
                         </div>
-                        <div class="desc">Lorem ipsum Minim labore Ut cupidatat quis qui deserunt proident fugiat
-                            pariatur cillum cupidatat reprehenderit sit id dolor consectetur ut.</div>
+                        <div class="desc">Après un grand travail fait par toute l'équipe, nous avons réalisé notre première livraison, génial non !!</div>
                     </div>
                 </li>
 
@@ -93,11 +90,10 @@ Timeline
                     <div class="direction-l wow slideInLeft" data-wow-duration="1s">
                         <div class="flag-wrapper">
                             <span class="hexa"></span>
-                            <span class="flag">Lorem ipsum Anim.</span>
-                            <span class="time-wrapper"><span class="time">July 2015</span></span>
+                            <span class="flag">Première réservation.</span>
+                            <span class="time-wrapper"><span class="time">25 Juillet 2020</span></span>
                         </div>
-                        <div class="desc">Lorem ipsum In ut sit in dolor nisi ex magna eu anim anim tempor dolore
-                            aliquip enim cupidatat laborum dolore.</div>
+                        <div class="desc">Recevoir la première réservation est un souvenir qui va rester à jamais.</div>
                     </div>
                 </li>
 
@@ -106,11 +102,10 @@ Timeline
                     <div class="direction-r wow slideInRight" data-wow-duration="1s">
                         <div class="flag-wrapper">
                             <span class="hexa"></span>
-                            <span class="flag">Lorem Occaecat.</span>
-                            <span class="time-wrapper"><span class="time">May 2015</span></span>
+                            <span class="flag">Premier client inscrit !!</span>
+                            <span class="time-wrapper"><span class="time">24 Juillet  2020</span></span>
                         </div>
-                        <div class="desc">Lorem ipsum Minim labore Ut cupidatat quis qui deserunt proident fugiat
-                            pariatur cillum cupidatat reprehenderit sit id dolor consectetur ut.</div>
+                        <div class="desc">C'est un jour merveilleux, avoir le premier client insrit sur notre site nous en rend heureux et fiers </div>
                     </div>
                 </li>
             </ul>
