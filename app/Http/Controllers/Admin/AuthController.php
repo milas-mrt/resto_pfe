@@ -274,7 +274,7 @@ class AuthController extends JoshController
 
 
         // Redirect to the users page
-        return redirect('admin/signin')->with('success', 'You have successfully logged out!');
+        return redirect('admin/signin')->with('success', 'Vous avez déconnctés avec succès!');
     }
 
     /**

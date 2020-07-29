@@ -52,8 +52,14 @@
                             </label>
 
                         </div>
-                        <input type="submit" class="btn btn-block btn-primary" value="Log In">
-                        vous n'avez pas de compte ? <a href="{{ route('register') }}"><strong> s'inscrire</strong></a>
+                        <input type="submit" class="btn btn-block btn-primary" value="Connecter">
+                        vous n'avez pas de compte ? <a href="{{ route('register') }}"><strong> s'inscrire</strong><br/></a>
+                        <br/>
+                         <div class="col-lg-12 text-center"><a href="http://127.0.0.1/RESTO_PFE/public/admin/signin">
+                                        <button type="button" class="btn btn-success btn-sm">Connecter autant qu'employé                                       
+                                        </button>
+                                    </a>
+                                </div>
                     </form>
                     <br />
                     <div class="row">

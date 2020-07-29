@@ -29,7 +29,7 @@
     <li {!! (Request::is('admin/activity_log') ? 'class="active"' : '' ) !!}>
         <a href="{{  URL::to('admin/activity_log') }}">
             <i class="livicon" data-name="eye-open" data-size="18" data-c="#F89A14" data-hc="#F89A14" data-loop="true"></i>
-            Activity Log
+            Activité Log
         </a>
     </li>
   <!--  <li {!! (Request::is('admin/datatables') || Request::is('admin/editable_datatables') || Request::is('admin/dropzone') || Request::is('admin/multiple_upload') || Request::is('admin/custom_datatables')|| Request::is('admin/selectfilter') ? 'class="active"' : '' ) !!}>
@@ -339,14 +339,14 @@
     <li {!! (Request::is('admin/general') || Request::is('admin/modals') || Request::is('admin/pickers') || Request::is('admin/x-editable') || Request::is('admin/timeline') || Request::is('admin/animations') || Request::is('admin/sliders') || Request::is('admin/knob') ? 'class="active"' : '' ) !!}>
         <a href="#">
             <i class="livicon" data-name="lab" data-c="#EF6F6C" data-hc="#EF6F6C" data-size="18" data-loop="true"></i>
-            <span class="title">UI Components</span>
+            <span class="title">Composants UI</span>
             <span class="fa arrow"></span>
         </a>
         <ul class="sub-menu">
             <li {!! (Request::is('admin/general') ? 'class="active"' : '' ) !!}>
                 <a href="{{ URL::to('admin/general') }}">
                     <i class="fa fa-angle-double-right"></i>
-                    General Components
+                     Componsants généraux
                 </a>
             </li>
             <li {!! (Request::is('admin/modals') ? 'class="active"' : '' ) !!}>
@@ -476,7 +476,7 @@
     <li {!! (Request::is('admin/calendar') ? 'class="active"' : '' ) !!}>
         <a href="{{ URL::to('admin/calendar') }}">
             <i class="livicon" data-c="#F89A14" data-hc="#F89A14" data-name="calendar" data-size="18" data-loop="true"></i>
-            Calendar
+            Calendrier
             <span class="badge badge-danger event_count">7</span>
         </a>
     </li>
@@ -489,17 +489,17 @@
         <ul class="sub-menu">
             <li {!! (Request::is('admin/emails/compose') ? 'class="active"' : '' ) !!}>
                 <a href="{{ URL::to('admin/emails/compose') }}">
-                    <i class="fa fa-angle-double-right"></i> Compose
+                    <i class="fa fa-angle-double-right"></i> Composer
                 </a>
             </li>
             <li {!! (Request::is('admin/emails/inbox') ? 'class="active"' : '' ) !!}>
                 <a href="{{ URL::to('admin/emails/inbox') }}">
-                    <i class="fa fa-angle-double-right"></i> Inbox
+                    <i class="fa fa-angle-double-right"></i> Reçu
                 </a>
             </li>
             <li {!! (Request::is('admin/emails/sent') ? 'class="active"' : '' ) !!}>
                 <a href="{{ URL::to('admin/emails/sent') }}">
-                    <i class="fa fa-angle-double-right"></i> Sent
+                    <i class="fa fa-angle-double-right"></i> Envoyé
                 </a>
             </li>
         </ul>
@@ -507,7 +507,7 @@
     <li {!! (Request::is('admin/tasks') ? 'class="active"' : '' ) !!}>
         <a href="{{ URL::to('admin/tasks') }}">
             <i class="livicon" data-c="#EF6F6C" data-hc="#EF6F6C" data-name="list-ul" data-size="18" data-loop="true"></i>
-            Tasks
+            Taches
             <span class="badge badge-danger" id="taskcount">{{ Request::get('tasks_count') }}</span>
         </a>
     </li>
@@ -521,7 +521,7 @@
             <li {!! (Request::is('admin/gallery') ? 'class="active"' : '' ) !!}>
                 <a href="{{ URL::to('admin/gallery') }}">
                     <i class="fa fa-angle-double-right"></i>
-                    Gallery
+                    GAllerie
                 </a>
             </li>
             <li {!! (Request::is('admin/masonry_gallery') ? 'class="active"' : '' ) !!}>
@@ -547,32 +547,32 @@
     <li {!! (Request::is('admin/users') || Request::is('admin/bulk_import_users') || Request::is('admin/users/create') || Request::is('admin/user_profile') || Request::is('admin/users/*') || Request::is('admin/deleted_users') ? 'class="active"' : '' ) !!}>
         <a href="#">
             <i class="livicon" data-name="user" data-size="18" data-c="#6CC66C" data-hc="#6CC66C" data-loop="true"></i>
-            <span class="title">Users</span>
+            <span class="title">Utilisateurs</span>
             <span class="fa arrow"></span>
         </a>
         <ul class="sub-menu">
             <li {!! (Request::is('admin/users') ? 'class="active" id="active"' : '' ) !!}>
                 <a href="{{ URL::to('admin/users') }}">
                     <i class="fa fa-angle-double-right"></i>
-                    Users
+                    Utilisateurs
                 </a>
             </li>
             <li {!! (Request::is('admin/users/create') ? 'class="active" id="active"' : '' ) !!}>
                 <a href="{{ URL::to('admin/users/create') }}">
                     <i class="fa fa-angle-double-right"></i>
-                    Add New User
+                    Créer un utilisateur
                 </a>
             </li>
             <li {!! ((Request::is('admin/users/*')) && !(Request::is('admin/users/create')) || Request::is('admin/user_profile') ? 'class="active" id="active"' : '' ) !!}>
                 <a href="{{ URL::route('admin.users.show',Sentinel::getUser()->id) }}">
                     <i class="fa fa-angle-double-right"></i>
-                    View Profile
+                    Voir le Profil
                 </a>
             </li>
             <li {!! (Request::is('admin/deleted_users') ? 'class="active" id="active"' : '' ) !!}>
                 <a href="{{ URL::to('admin/deleted_users') }}">
                     <i class="fa fa-angle-double-right"></i>
-                    Deleted Users
+                    Utilisateurs supprimés
                 </a>
             </li>
         </ul>
@@ -587,13 +587,13 @@
             <li {!! (Request::is('admin/roles') ? 'class="active" id="active"' : '' ) !!}>
                 <a href="{{ URL::to('admin/roles') }}">
                     <i class="fa fa-angle-double-right"></i>
-                    Roles List
+                     Liste des Roles 
                 </a>
             </li>
             <li {!! (Request::is('admin/roles/create') ? 'class="active" id="active"' : '' ) !!}>
                 <a href="{{ URL::to('admin/roles/create') }}">
                     <i class="fa fa-angle-double-right"></i>
-                    Add New Role
+                    Ajouter un nouveau Role
                 </a>
             </li>
         </ul>
@@ -636,19 +636,19 @@
             <li {!! (Request::is('admin/blogcategory') ? 'class="active"' : '' ) !!}>
                 <a href="{{ URL::to('admin/blogcategory') }}">
                     <i class="fa fa-angle-double-right"></i>
-                    Blog Category List
+                      Liste de Catégories des Blogs.
                 </a>
             </li>
             <li {!! (Request::is('admin/blog') ? 'class="active"' : '' ) !!}>
                 <a href="{{ URL::to('admin/blog') }}">
                     <i class="fa fa-angle-double-right"></i>
-                    Blog List
+                     Liste de Blog
                 </a>
             </li>
             <li {!! (Request::is('admin/blog/create') ? 'class="active"' : '' ) !!}>
                 <a href="{{ URL::to('admin/blog/create') }}">
                     <i class="fa fa-angle-double-right"></i>
-                    Add New Blog
+                    Ajouter un nouveau Blog
                 </a>
             </li>
         </ul>
@@ -656,20 +656,20 @@
     <li {!! (Request::is('admin/news') || Request::is('admin/news_item') ? 'class="active"' : '' ) !!}>
         <a href="#">
             <i class="livicon" data-name="move" data-c="#ef6f6c" data-hc="#ef6f6c" data-size="18" data-loop="true"></i>
-            <span class="title">News</span>
+            <span class="title">Tendances</span>
             <span class="fa arrow"></span>
         </a>
         <ul class="sub-menu">
             <li {!! (Request::is('admin/news') ? 'class="active"' : '' ) !!}>
                 <a href="{{ URL::to('admin/news') }}">
                     <i class="fa fa-angle-double-right"></i>
-                    News
+                    Tendances
                 </a>
             </li>
             <li {!! (Request::is('admin/news_item') ? 'class="active"' : '' ) !!}>
                 <a href="{{ URL::to('admin/news_item') }}">
                     <i class="fa fa-angle-double-right"></i>
-                    News Details
+                     Détails tendance
                 </a>
             </li>
         </ul>
@@ -715,43 +715,43 @@
             <li {!! (Request::is('admin/login') ? 'class="active"' : '' ) !!}>
                 <a href="{{ URL::to('admin/login') }}">
                     <i class="fa fa-angle-double-right"></i>
-                    Login
+                    Se connceter
                 </a>
             </li>
             <li {!! (Request::is('admin/login2') ? 'class="active"' : '' ) !!}>
                 <a href="{{ URL::to('admin/login2') }}">
                     <i class="fa fa-angle-double-right"></i>
-                    Login 2
+                    Se connecter 2
                 </a>
             </li>
             <li>
                 <a href="{{ URL::to('admin/login#toregister') }}">
                     <i class="fa fa-angle-double-right"></i>
-                    Register
+                    S'inscrire
                 </a>
             </li>
             <li>
                 <a href="{{ URL::to('admin/register2') }}">
                     <i class="fa fa-angle-double-right"></i>
-                    Register2
+                    S'inscrire 2
                 </a>
             </li>
             <li {!! (Request::is('adminar/404') ? 'class="active"' : '' ) !!}>
                 <a href="{{ URL::to('admin/404') }}">
                     <i class="fa fa-angle-double-right"></i>
-                    404 Error
+                    404 Erreur
                 </a>
             </li>
             <li {!! (Request::is('admin/500') ? 'class="active"' : '' ) !!}>
                 <a href="{{ URL::to('admin/500') }}">
                     <i class="fa fa-angle-double-right"></i>
-                    500 Error
+                    500 Erreur
                 </a>
             </li>
             <li {!! (Request::is('admin/blank') ? 'class="active"' : '' ) !!}>
                 <a href="{{ URL::to('admin/blank') }}">
                     <i class="fa fa-angle-double-right"></i>
-                    Blank Page
+                     Page blanche
                 </a>
             </li>
         </ul>

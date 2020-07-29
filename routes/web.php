@@ -277,7 +277,7 @@ Route::group(
     }
 );
 
-// FrontEndController
+    // FrontEndController
 Route::get('login', 'FrontEndController@getLogin')->name('login');
 Route::post('login', 'FrontEndController@postLogin')->name('login');
 Route::get('register', 'FrontEndController@getRegister')->name('register');

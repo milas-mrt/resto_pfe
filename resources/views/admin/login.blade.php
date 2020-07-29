@@ -54,7 +54,7 @@
                                 id="login_form" class="my-3">
                                 <h3 class="black_bg">
                                     <img src="{{ asset('img/logo.png') }}" alt="josh logo">
-                                    <br>Log In</h3>
+                                    <br>Se connecter</h3>
                                 <!-- CSRF Token -->
                                 <input type="hidden" name="_token" value="{{ csrf_token() }}" />
                                 <div class="form-group {{ $errors->first('email', 'has-error') }}">
@@ -73,7 +73,7 @@
                                     <label style="margin-bottom:0px;" for="password" class="youpasswd"> <i
                                             class="livicon" data-name="key" data-size="16" data-loop="true"
                                             data-c="#3c8dbc" data-hc="#3c8dbc"></i>
-                                        Password
+                                        Mot de passe
                                     </label>
                                     <input id="password" name="password" type="password"
                                         placeholder="Enter a password" />
@@ -85,34 +85,38 @@
                                     <label>
                                         <input type="checkbox" name="remember-me" id="remember-me" value="remember-me"
                                             class="square-blue" />
-                                        Keep me logged in
+                                        laisser moi connecté
                                     </label>
                                 </div>
                                 <p class="login button">
-                                    <input type="submit" value="Log In" class="btn btn-success btn-block" />
+                                    <input type="submit" value="Connecter" class="btn btn-success btn-block" />
                                 </p>
                                 <p class="change_link">
                                     <a href="#toforgot">
-                                        <button type="button" class="btn btn-warning btn-sm">Forgot
-                                            password
-                                        </button>
+                                        Mot de passe oublié                                       
+                                        
                                     </a>
-                                    <a href="#toregister">
+                                    <!--<a href="#toregister">
                                         <button type="button" id="signup" class="btn btn-success btn-sm"
-                                            style="float:right;">Sign Up
+                                            style="float:right;">S'inscrire
+                                        </button>
+                                    </a>-->
+                                    <div class="col-lg-12 text-center"><a href="http://127.0.0.1/RESTO_PFE/public/login">
+                                        <button type="button" class="btn btn-info btn-sm">Connecter autant que client                                       
                                         </button>
                                     </a>
+                                </div>
                                 </p>
                                 <div class="row">
                                     <div class="col-lg-12 text-center social_login mb-3">
                                         <a class="btn btn-block btn-social btn-facebook" href="{{ url('/facebook') }}">
-                                            <i class="fab fa-facebook-f"></i> Sign in with Facebook
+                                            <i class="fab fa-facebook-f"></i>S'inscrire via Facebook
                                         </a>
                                         <a class="btn btn-block btn-social btn-google-plus" href="{{ url('/google') }}">
-                                            <i class="fab fa-google-plus-g"></i> Sign in with Google
+                                            <i class="fab fa-google-plus-g"></i> S'inscrire via Google
                                         </a>
                                         <a class="btn btn-block btn-social btn-linkedin" href="{{ url('/linkedin') }}">
-                                            <i class="fab fa-linkedin-in"></i> Sign in with LinkedIn
+                                            <i class="fab fa-linkedin-in"></i> S'inscrire via LinkedIn
                                         </a>
                                     </div>
                                 </div>
@@ -123,7 +127,7 @@
                                 id="register_here">
                                 <h3 class="black_bg my-3">
                                     <img src="{{ asset('img/logo.png') }}" alt="josh logo">
-                                    <br>Log In</h3>
+                                    <br>Connecter</h3>
                                 <!-- CSRF Token -->
                                 <input type="hidden" name="_token" value="{{ csrf_token() }}" />
 
@@ -131,7 +135,7 @@
                                     <label style="margin-bottom:0px;" for="first_name" class="youmail">
                                         <i class="livicon" data-name="user" data-size="16" data-loop="true"
                                             data-c="#3c8dbc" data-hc="#3c8dbc"></i>
-                                        First Name
+                                    Prénom
                                     </label>
                                     <input id="first_name" name="first_name" required type="text" placeholder="John"
                                         value="{!! old('first_name') !!}" />
@@ -144,7 +148,7 @@
                                     <label style="margin-bottom:0px;" for="last_name" class="youmail">
                                         <i class="livicon" data-name="user" data-size="16" data-loop="true"
                                             data-c="#3c8dbc" data-hc="#3c8dbc"></i>
-                                        Last Name
+                                        Nom
                                     </label>
                                     <input id="last_name" name="last_name" required type="text" placeholder="Doe"
                                         value="{!! old('last_name') !!}" />
@@ -170,7 +174,7 @@
                                     <label style="margin-bottom:0px;" for="email_confirm" class="youmail">
                                         <i class="livicon" data-name="mail" data-size="16" data-loop="true"
                                             data-c="#3c8dbc" data-hc="#3c8dbc"></i>
-                                        Confirm E-mail
+                                        Confirmer l'E-mail
                                     </label>
                                     <input id="email_confirm" name="email_confirm" required type="email"
                                         placeholder="mysupermail@mail.com" value="{!! old('email_confirm') !!}" />
@@ -184,10 +188,10 @@
                                     <label style="margin-bottom:0px;" for="password1" class="youpasswd">
                                         <i class="livicon" data-name="key" data-size="16" data-loop="true"
                                             data-c="#3c8dbc" data-hc="#3c8dbc"></i>
-                                        Password
+                                        Mot de passe
                                     </label>
                                     <input id="password1" name="password" required type="password"
-                                        placeholder="Password" />
+                                        placeholder="Mot de passe" />
                                     <div class="col-sm-12">
                                         {!! $errors->first('password', '<span class="help-block">:message</span>') !!}
                                     </div>
@@ -197,10 +201,9 @@
                                     <label style="margin-bottom:0px;" for="password_confirm" class="youpasswd">
                                         <i class="livicon" data-name="key" data-size="16" data-loop="true"
                                             data-c="#3c8dbc" data-hc="#3c8dbc"></i>
-                                        Confirm Password
-                                    </label>
+                                        Confirmer le mot de passe                                    </label>
                                     <input id="password_confirm" name="password_confirm" required type="password"
-                                        placeholder="Confirm Password" />
+                                        placeholder="Confirmer le mot de passe" />
                                     <div class="col-sm-12">
                                         {!! $errors->first('password_confirm', '<span
                                             class="help-block">:message</span>') !!}
@@ -222,10 +225,10 @@
                             <form action="{{ url('admin/forgot-password') }}" autocomplete="on" method="post"
                                 role="form" id="reset_pw">
                                 <h3 class="black_bg my-3">
-                                    <img src="{{ asset('img/logo.png') }}" alt="josh logo"><br>Forgot Password</h3>
+                                    <img src="{{ asset('img/logo.png') }}" alt="josh logo"><br>Mot de passe oublié</h3>
                                 <p style="font-size:14px !important;">
-                                    Enter your email address below and we'll send a special reset password link to your
-                                    inbox.
+                                    Veuillez entrer votre adresse mail ci-dessous
+                                    
                                 </p>
 
                                 <!-- CSRF Token -->
@@ -235,7 +238,7 @@
                                     <label style="margin-bottom:0px;" for="email2" class="youmai">
                                         <i class="livicon" data-name="mail" data-size="16" data-loop="true"
                                             data-c="#3c8dbc" data-hc="#3c8dbc"></i>
-                                        Your email
+                                        Votre email
                                     </label>
                                     <input id="email2" name="email" required type="email" placeholder="your@mail.com"
                                         value="{!! old('email') !!}" />
@@ -248,7 +251,7 @@
                                 </p>
                                 <p class="change_link">
                                     <a href="#tologin" class="to_register">
-                                        <button type="button" class="btn btn-warning btn-sm">Back
+                                        <button type="button" class="btn btn-warning btn-sm">Retour
                                         </button>
                                     </a>
                                 </p>

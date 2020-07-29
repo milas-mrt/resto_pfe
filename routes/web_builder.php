@@ -46,3 +46,18 @@ Route::get('produits/{produits}', ['as'=> 'produits.show', 'uses' => 'Produit\Pr
 Route::get('produits/{produits}/edit', ['as'=> 'produits.edit', 'uses' => 'Produit\ProduitController@edit']);
 
 });
+
+
+Route::group(array('prefix' => 'admin/table/','namespace' => 'Admin','middleware' => 'admin','as'=>'admin.table.'), function () {
+
+Route::get('tables', ['as'=> 'tables.index', 'uses' => 'Table\TableController@index']);
+Route::post('tables', ['as'=> 'tables.store', 'uses' => 'Table\TableController@store']);
+Route::get('tables/create', ['as'=> 'tables.create', 'uses' => 'Table\TableController@create']);
+Route::put('tables/{tables}', ['as'=> 'tables.update', 'uses' => 'Table\TableController@update']);
+Route::patch('tables/{tables}', ['as'=> 'tables.update', 'uses' => 'Table\TableController@update']);
+Route::get('tables/{id}/delete', array('as' => 'tables.delete', 'uses' => 'Table\TableController@getDelete'));
+Route::get('tables/{id}/confirm-delete', array('as' => 'tables.confirm-delete', 'uses' => 'Table\TableController@getModalDelete'));
+Route::get('tables/{tables}', ['as'=> 'tables.show', 'uses' => 'Table\TableController@show']);
+Route::get('tables/{tables}/edit', ['as'=> 'tables.edit', 'uses' => 'Table\TableController@edit']);
+
+});

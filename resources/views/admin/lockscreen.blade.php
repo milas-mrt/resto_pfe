@@ -49,9 +49,9 @@
                         <p class="form-control-static user_name_max">{{$user->first_name}}</p>
                         <input type="password" name="password" id="password"
                             class="form-control {{ $errors->first('password', 'has-error') }}">
-                        <button class="btn btn-info btn-block login" id="index" type="submit">GO</button>
+                        <button class="btn btn-info btn-block login" id="index" type="submit">Entrer</button>
                     </div>
-                    <a href="{{ route('admin.logout') }}">Logout</a>
+                    <a href="{{ route('admin.logout') }}">Se déconnecter</a>
                 </form>
             </div>
         </div>
@@ -68,7 +68,7 @@
         $('button[type="submit"]').click(function(e) {
             e.preventDefault();
             if ( $("#password").val() == "") {
-                $("#output").addClass("alert alert-danger").text('Please enter password');
+                $("#output").addClass("alert alert-danger").text('Enter votre mot de passe');
                 setTimeout(function() {
                     $("#output").removeClass("alert alert-danger").text('');
                 },3500)
@@ -80,13 +80,13 @@
                     data: {password: $("#password").val(), _token: $('meta[name="_token"]').attr('content')},
                     success: function (result) {
                         if (result == 'error') {
-                            $("#output").addClass("alert alert-danger").text('You have entered a Wrong Password');
+                            $("#output").addClass("alert alert-danger").text('Mot de passe incorrect');
                             setTimeout(function() {
                                 $("#output").removeClass("alert alert-danger").text('');
                             },2500)
                         }
                         else {
-                            $("#output").addClass("alert alert-success animated fadeInUp user_name_max2").text('Welcome ' + '{!! $user->first_name !!}');
+                            $("#output").addClass("alert alert-success animated fadeInUp user_name_max2").text('Bienvenue ' + '{!! $user->first_name !!}');
                             setTimeout(function(){
                             window.location.href = '../../admin';
                             },1000)

@@ -24,7 +24,7 @@
         <div class="row">
             <div class="box animation flipInX">
                 <img src="{{ asset('images/josh-new.png') }}" alt="logo" class="img-responsive mar">
-                <h3 class="text-primary">S'incrire</h3>
+                <h3 class="text-primary">S'inscrire</h3>
                 <!-- Notifications -->
                 <div id="notific">
                     @include('notifications')
@@ -65,9 +65,9 @@
                     </div>
                     <div class="clearfix"></div>
                     <div class="form-group {{ $errors->first('gender', 'has-error') }}">
-                        <label class="sr-only">Sexe</label>
+                        <label class="sr-only" >Sexe</label>
                         <label class="radio-inline">
-                            <input type="radio" name="gender" id="inlineRadio1" value="male"> Male
+                            <input type="radio" name="gender" id="inlineRadio1" value="male" checked="true"> Male
                         </label>
                         <label class="radio-inline">
                             <input type="radio" name="gender" id="inlineRadio2" value="female"> Femelle
@@ -76,7 +76,7 @@
                     </div>
                     <div class="checkbox">
                         <label>
-                            <input type="checkbox" name="subscribed"> J'accepte <a href="#">le Termes et les Conditions</a>
+                            <input type="checkbox" name="subscribed" required="true"> J'accepte <a href="#">le Termes et les Conditions</a>
                         </label>
                     </div>
                     <div class="g-recaptcha" data-sitekey="{{ env('GOOGLE_RECAPTCHA_KEY') }}"></div>

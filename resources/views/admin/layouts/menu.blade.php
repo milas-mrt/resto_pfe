@@ -22,3 +22,11 @@
     </a>
 </li>
 
+<li class="{{ Request::is('admin/table/tables*') ? 'active' : '' }}">
+    <a href="{!! route('admin.table.tables.index') !!}">
+    <i class="livicon" data-c="#EF6F6C" data-hc="#EF6F6C" data-name="paper-plane" data-size="18"
+               data-loop="true"></i>
+               Tables
+    </a>
+</li>
+

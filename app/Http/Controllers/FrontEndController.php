@@ -44,7 +44,7 @@ class FrontEndController extends JoshController
     {
         // Is the user logged in?
         if (Sentinel::check()) {
-            return Redirect::route('my-account');
+            return view('index');
         }
         // Show the login page
         return view('login');
@@ -67,9 +67,9 @@ class FrontEndController extends JoshController
                     ->causedBy($user)
                     ->log('LoggedIn');
 
-                return Redirect::route("my-account")->with('success', trans('auth/message.login.success'));
+                return redirect('/')->with('success', trans('auth/message.login.success'));
             } else {
-                return redirect('login')->with('error', 'Email or password is incorrect.');
+                return redirect('login')->with('error', 'Email ou mot de passe incorrect.');
             }
         } catch (UserNotFoundException $e) {
             $this->messageBag->add('email', trans('auth/message.account_not_found'));
@@ -173,10 +173,10 @@ class FrontEndController extends JoshController
         $activate = $this->user_activation; //make it false if you don't want to activate user automatically it is declared above as global variable
         try {
             // Register the user
-            $user = Sentinel::register($request->only(['first_name', 'last_name', 'email', 'password', 'gender']), $activate);
-            //add user to 'User' role
+             $user = Sentinel::register($request->only(['first_name', 'last_name', 'email', 'password', 'gender']), $activate);
+           /* //add user to 'User' role
             $role = Sentinel::findRoleByName('User');
-            $role->user()->attach($user);
+            $role->users()->attach($user);
             //if you set $activate=false above then user will receive an activation mail
             if (!$activate) {
                 // Data to be used on the email view
@@ -190,7 +190,7 @@ class FrontEndController extends JoshController
                     ->send(new Register($data));
                 //Redirect to login page
                 return redirect('login')->with('success', trans('auth/message.signup.success'));
-            }
+            }*/
             // login user automatically
             Sentinel::login($user, false);
             //Activity log for new account
@@ -199,7 +199,7 @@ class FrontEndController extends JoshController
                 ->causedBy($user)
                 ->log('New Account created');
             // Redirect to the home page with success menu
-            return Redirect::route("my-account")->with('success', trans('auth/message.signup.success'));
+            return redirect('/')->with('status','succès');
         } catch (UserExistsException $e) {
             $this->messageBag->add('email', trans('auth/message.account_already_exists'));
         }
@@ -341,7 +341,7 @@ class FrontEndController extends JoshController
 
 
         // Send Email to admin
-        Mail::to('email@domain.com')
+        Mail::to('millasso97@gmail.com')
             ->send(new Contact($data));
 
         // Send Email to user
@@ -380,6 +380,6 @@ class FrontEndController extends JoshController
             Sentinel::logout();
         }
         // Redirect to the users page
-        return redirect('login')->with('success', 'You have successfully logged out!');
+        return redirect('login')->with('success', 'Vous etes déconnectés avec succès!');
     }
 }
